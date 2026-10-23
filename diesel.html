@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="th" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>รถจักรดีเซล · รถไฟไทย วิกิ</title>
+<meta name="description" content="รถจักรดีเซลทุกยุคของการรถไฟแห่งประเทศไทย">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Prompt:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="assets/js/loader.js"></script>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script src="assets/tailwind-config.js"></script>
+</head>
+<body id="top" class="bg-cream-50 font-sans text-[17px] leading-relaxed text-stone-800 antialiased dark:bg-stone-950 dark:text-stone-200">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-3 focus:py-2">ข้ามไปเนื้อหา</a>
+<header class="sticky top-0 z-40 border-b border-stone-200/80 bg-cream-50/90 backdrop-blur dark:border-stone-800 dark:bg-stone-950/90">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
+    <a href="index.html" class="flex items-center gap-2.5 font-display text-lg font-semibold text-stone-900 dark:text-stone-100"><svg viewBox="0 0 32 32" class="h-8 w-8 shrink-0" aria-hidden="true"><rect width="32" height="32" rx="8" class="fill-rail-700"/><path d="M10 7h12a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H10a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3Zm0 3v4h12v-4H10Zm1 7.5a1.5 1.5 0 1 0 0 .01Zm10 0a1.5 1.5 0 1 0 0 .01ZM11 23l-3 3m13-3 3 3" fill="none" stroke="#fdf8f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>รถไฟไทย <span class="text-rail-700 dark:text-rail-400">วิกิ</span></span></a>
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="เมนูหลัก">
+      <a href="history.html" class="nav-link">ประวัติ</a><div class="group relative">
+          <button class="nav-link nav-link-active inline-flex items-center gap-1">ขบวนรถ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute left-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800 font-semibold text-rail-700 dark:text-rail-300">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ขบวนรถและการเดินทาง</a></div>
+          </div>
+        </div><a href="timetable.html" class="nav-link">ตารางเดินรถ</a><a href="trips.html" class="nav-link">เที่ยวรถไฟ</a><a href="lines.html" class="nav-link">เส้นทาง</a><a href="stations.html" class="nav-link">สถานี</a><div class="group relative">
+          <button class="nav-link inline-flex items-center gap-1">เรียนรู้ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute right-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="museums.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a></div>
+          </div>
+        </div>
+    </nav>
+    <details class="relative lg:hidden">
+      <summary class="flex cursor-pointer list-none items-center gap-2 rounded-lg border border-stone-300 px-3 py-1.5 text-sm dark:border-stone-700 [&::-webkit-details-marker]:hidden">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>เมนู
+      </summary>
+      <nav class="absolute right-0 top-full mt-2 max-h-[calc(100dvh-5rem)] w-72 max-w-[calc(100vw-2rem)] overflow-y-auto overscroll-contain rounded-xl border border-stone-200 bg-white p-2 shadow-xl dark:border-stone-700 dark:bg-stone-900" aria-label="เมนูมือถือ"><a href="index.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">หน้าแรก</a><a href="timetable.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ตารางเดินรถ</a><a href="trips.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">เที่ยวด้วยรถไฟ</a><a href="history.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ประวัติรถไฟไทย</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">ขบวนรถ</p><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 bg-rail-50 font-semibold text-rail-700 dark:bg-rail-950 dark:text-rail-300">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ขบวนรถและการเดินทาง</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เส้นทางและสถานี</p><a href="lines.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">เส้นทางรถไฟ</a><a href="stations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">สถานีน่าสนใจ</a><a href="station-list.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ทำเนียบสถานี</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เรียนรู้</p><a href="museums.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a><a href="sources.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งอ้างอิง</a></nav>
+    </details>
+  </div>
+</header>
+<main id="main">
+<section class="container-page pt-10">
+  <nav class="crumb"><a href="index.html" class="hover:underline">หน้าแรก</a> / ขบวนรถ / รถจักรดีเซล</nav>
+  <h1 class="h-page mt-3">รถจักรดีเซล</h1>
+  <p class="lead mt-3 max-w-3xl">ตั้งแต่ พ.ศ. 2504 รถจักรดีเซลค่อย ๆ เข้ามาแทนรถจักรไอน้ำจนครบทั้งประเทศ ทุกวันนี้รถไฟทางไกลเกือบทุกขบวนยังใช้รถจักรดีเซล หน้านี้เรียงรุ่นตามปีที่เข้าประจำการ</p>
+  <div class="callout mt-6 max-w-3xl"><b>อ่านชื่อรุ่นอย่างไร</b> การรถไฟฯ มักเรียกรถจักรด้วยอักษรย่อของผู้ผลิต เช่น GE, ALS, AHK, HID, GEA, CSR และใช้ <b>หมายเลขรถ</b> บอกรุ่น เช่น 4101–4154 คือรุ่น ALS ถ้าจำหมายเลขได้ก็บอกรุ่นได้ทันที</div>
+</section>
+
+<!-- Overview cards -->
+<section class="container-page mt-10">
+  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    <a href="#davenport" class="card group"><div class="p-4"><p class="text-xs text-stone-500">พ.ศ. 2495 · สหรัฐฯ</p><p class="h-item mt-1 text-lg group-hover:text-rail-700">Davenport</p></div></a>
+    <a href="#henschel" class="card group"><div class="p-4"><p class="text-xs text-stone-500">พ.ศ. 2507 · เยอรมนี</p><p class="h-item mt-1 text-lg group-hover:text-rail-700">Henschel ไฮดรอลิก</p></div></a>
+    <a href="#ge" class="card group"><div class="p-4"><p class="text-xs text-stone-500">พ.ศ. 2507–2509 · สหรัฐฯ</p><p class="h-item mt-1 text-lg group-hover:text-rail-700">"GE" UM12C (4001–4050)</p></div></a>
+    <a href="#krupp" class="card group"><div class="p-4"><p class="text-xs text-stone-500">พ.ศ. 2512 · เยอรมนี</p><p class="h-item mt-1 text-lg group-hover:text-rail-700">Krupp (3101–3127)</p></div></a>
+    <a href="#alsthom" class="card group"><div class="p-4"><p class="text-xs text-stone-500">พ.ศ. 2517–2528 · ฝรั่งเศส</p><p class="h-item mt-1 text-lg group-hover:text-rail-700">Alsthom ALS / AHK / ALD / ADD</p></div></a>
+    <a href="#hid" class="card group"><div class="p-4"><p class="text-xs text-stone-500">พ.ศ. 2536 · ญี่ปุ่น</p><p class="h-item mt-1 text-lg group-hover:text-rail-700">Hitachi HID (4501–4522)</p></div></a>
+    <a href="#gea" class="card group"><div class="p-4"><p class="text-xs text-stone-500">พ.ศ. 2538–2539 · สหรัฐฯ</p><p class="h-item mt-1 text-lg group-hover:text-rail-700">GE CM22-7i GEA (4523–4560)</p></div></a>
+    <a href="#csr" class="card group"><div class="p-4"><p class="text-xs text-stone-500">พ.ศ. 2558–2564 · จีน</p><p class="h-item mt-1 text-lg group-hover:text-rail-700">CSR SDA3 / QSY</p></div></a>
+  </div>
+</section>
+
+<div class="container-page mt-12 space-y-10">
+
+  <section class="prose-th max-w-3xl">
+    <h2 class="h-section">ดีเซลไฟฟ้า กับ ดีเซลไฮดรอลิก ต่างกันอย่างไร</h2>
+    <p>รถจักรดีเซลทุกคันมีเครื่องยนต์ดีเซลเป็นต้นกำลัง ความต่างอยู่ที่ <b>วิธีส่งกำลังไปที่ล้อ</b></p>
+    <ul>
+      <li><b>ดีเซลไฟฟ้า</b> เครื่องยนต์หมุนเครื่องกำเนิดไฟฟ้า แล้วส่งไฟฟ้าไปยังมอเตอร์ที่ล้อ ทนทานและซ่อมง่าย รถจักรส่วนใหญ่ของไทยเป็นแบบนี้ (GE, Alsthom, Hitachi, CSR)</li>
+      <li><b>ดีเซลไฮดรอลิก</b> ส่งกำลังผ่านชุดเกียร์น้ำมันคล้ายเกียร์อัตโนมัติของรถยนต์ น้ำหนักเบา แต่ดูแลยากกว่า (Henschel, Krupp)</li>
+    </ul>
+    <p>ไทยเริ่มใช้รถจักรดีเซลตั้งแต่ พ.ศ. 2471 ซึ่งถือว่าเร็วมากในเอเชีย แต่ช่วงนั้นยังมีจำนวนน้อย การเปลี่ยนจากไอน้ำเป็นดีเซลอย่างจริงจังเริ่มหลัง พ.ศ. 2504</p>
+  </section>
+
+  <article id="davenport" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Davenport_HP500_Locomotive_No.504_Lampang.jpg/960px-Davenport_HP500_Locomotive_No.504_Lampang.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Davenport_HP500_Locomotive_No.504_Lampang.jpg/1920px-Davenport_HP500_Locomotive_No.504_Lampang.jpg" alt="รถจักรดีเซล Davenport หมายเลข 504 ที่สถานีนครลำปาง" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">Davenport หมายเลข 504 ที่สถานีนครลำปาง (เลิกใช้งานแล้ว)</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Supanut Arunoprayote · <a href="https://commons.wikimedia.org/wiki/File:Davenport_HP500_Locomotive_No.504_Lampang.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <div class="flex flex-wrap gap-2"><span class="badge badge-off">เลิกใช้งาน / ตั้งแสดง</span></div>
+        <h2 class="h-section mt-2">Davenport</h2>
+        <div class="prose-th"><p>รถจักรดีเซลไฟฟ้าขนาดเล็ก กำลังราว 500 แรงม้า จากบริษัท Davenport สหรัฐอเมริกา เป็นรถจักรดีเซลรุ่นแรก ๆ หลังสงครามที่ใช้สับเปลี่ยนในย่านสถานีและทำขบวนบนทางสายรอง ปัจจุบันเลิกใช้งานแล้ว เหลือบางคันจอดอยู่ตามสถานี เช่น หมายเลข 504 ที่นครลำปาง</p></div>
+        <dl class="facts mt-5"><dt>ผู้สร้าง</dt><dd>Davenport Locomotive Works (สหรัฐฯ)</dd><dt>ระบบส่งกำลัง</dt><dd>ดีเซลไฟฟ้า</dd><dt>งานหลัก</dt><dd>สับเปลี่ยน ขบวนสายรอง</dd></dl>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="henschel" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Hen_DHG1200_SRT_%283020A%29.jpg/960px-Hen_DHG1200_SRT_%283020A%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Hen_DHG1200_SRT_%283020A%29.jpg/1920px-Hen_DHG1200_SRT_%283020A%29.jpg" alt="รถจักรดีเซลไฮดรอลิก Henschel หมายเลข 3020 จอดที่ทุ่งสง" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">Henschel หมายเลข 3020 (สร้าง พ.ศ. 2507) จอดที่ทุ่งสง พ.ศ. 2549</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Joachim Lutz · <a href="https://commons.wikimedia.org/wiki/File:Hen_DHG1200_SRT_(3020A).jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <div class="flex flex-wrap gap-2"><span class="badge badge-off">เลิกใช้งาน</span></div>
+        <h2 class="h-section mt-2">Henschel (ดีเซลไฮดรอลิก)</h2>
+        <div class="prose-th"><p>รถจักรดีเซลไฮดรอลิกจากบริษัทเฮนเชล เยอรมนี บริษัทเดียวกับที่เคยสร้าง <a href="steam.html#garratt">รถจักรไอน้ำการ์แรตต์</a> ให้สยาม รุ่นนี้มีกำลังราว 1,200 แรงม้า ใช้ลากขบวนโดยสารและสินค้าในยุคที่ไทยกำลังทยอยปลดรถจักรไอน้ำ</p></div>
+        <dl class="facts mt-5"><dt>ผู้สร้าง</dt><dd>Henschel (เยอรมนี)</dd><dt>รุ่นผู้ผลิต</dt><dd>DHG 1200</dd><dt>ระบบส่งกำลัง</dt><dd>ดีเซลไฮดรอลิก</dd><dt>สถานะ</dt><dd>เลิกใช้งานแล้ว</dd></dl>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="ge" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/SRT_GE_UM12C_No._4050.jpg/960px-SRT_GE_UM12C_No._4050.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/SRT_GE_UM12C_No._4050.jpg/1920px-SRT_GE_UM12C_No._4050.jpg" alt="รถจักรดีเซลไฟฟ้า GE UM12C หมายเลข 4050 ที่สถานีกรุงเทพ" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">GE UM12C หมายเลข 4050 ที่สถานีกรุงเทพ</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Geonuch · <a href="https://commons.wikimedia.org/wiki/File:SRT_GE_UM12C_No._4050.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <div class="flex flex-wrap gap-2"><span class="badge badge-run">ยังใช้งาน</span></div>
+        <h2 class="h-section mt-2">"GE" UM12C (หมายเลข 4001–4050)</h2>
+        <p class="mt-2 flex flex-wrap gap-2"><a href="class-ge.html" class="inline-flex items-center gap-1 rounded-lg bg-rail-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-rail-800">ข้อมูลละเอียด: สเปก รายชื่อทุกคัน ภาพ →</a></p>
+        <div class="prose-th"><p>รถจักรดีเซลไฟฟ้ารุ่น UM12C จากสหรัฐอเมริกา ที่คนรถไฟเรียกกันติดปากว่า <b>"GE"</b> (บางแหล่งระบุว่าผู้สร้างคือ ALCO) ล็อตแรก 40 คัน (4001–4040) เข้ามาเมื่อ พ.ศ. 2507 และล็อตที่สอง 10 คัน (4041–4050) เมื่อ พ.ศ. 2509 เป็นกำลังหลักของการเปลี่ยนจากไอน้ำเป็นดีเซล</p><p>แม้อายุเกิน 60 ปีแล้ว แต่ยังใช้การได้ราว 42 คัน และเป็นรถจักรดีเซลไฟฟ้าที่เก่าที่สุดที่ยังใช้งานเป็นหลัก มักทำขบวนรถธรรมดา รถชานเมือง รถสินค้า และงานสับเปลี่ยนในย่านสถานี</p></div>
+        <dl class="facts mt-5"><dt>ประเทศผู้ผลิต</dt><dd>สหรัฐอเมริกา</dd><dt>เข้าประจำการ</dt><dd>พ.ศ. 2507–2509</dd><dt>จำนวน</dt><dd>50 คัน (ใช้การได้ราว 42 คัน)</dd><dt>ระบบส่งกำลัง</dt><dd>ดีเซลไฟฟ้า</dd></dl>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="krupp" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/KRUPP3121.JPG/960px-KRUPP3121.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/KRUPP3121.JPG/1920px-KRUPP3121.JPG" alt="รถจักรดีเซลไฮดรอลิก Krupp หมายเลข 3121" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">Krupp หมายเลข 3121 รถจักรที่มักเห็นบนเส้นทางสายน้ำตก</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: SChirapant · <a href="https://commons.wikimedia.org/wiki/File:KRUPP3121.JPG" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
+</figure>
+      <div>
+        <div class="flex flex-wrap gap-2"><span class="badge badge-run">ยังใช้งานบางคัน</span></div>
+        <h2 class="h-section mt-2">Krupp (หมายเลข 3101–3127)</h2>
+        <div class="prose-th"><p>รถจักรดีเซลไฮดรอลิกจากบริษัทครุปป์ เยอรมนี เข้าประจำการราว พ.ศ. 2512 นักท่องเที่ยวมักเห็นรุ่นนี้ลากขบวนรถธนบุรี–น้ำตก ข้าม <a href="stations.html#kwai">สะพานข้ามแม่น้ำแคว</a> และเลียบหน้าผา <a href="stations.html#wangpho">วังโพ</a></p></div>
+        <dl class="facts mt-5"><dt>ผู้สร้าง</dt><dd>Krupp (เยอรมนี)</dd><dt>เข้าประจำการ</dt><dd>ราว พ.ศ. 2512</dd><dt>จำนวน</dt><dd>27 คัน</dd><dt>ระบบส่งกำลัง</dt><dd>ดีเซลไฮดรอลิก</dd></dl>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="alsthom" class="detail">
+    <div class="flex flex-wrap gap-2"><span class="badge badge-run">ยังใช้งาน</span></div>
+    <h2 class="h-section mt-2">Alsthom ตระกูล AD24C: ALS, AHK, ALD, ADD</h2>
+        <p class="mt-2 flex flex-wrap gap-2"><a href="class-als.html" class="inline-flex items-center gap-1 rounded-lg bg-rail-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-rail-800">ข้อมูลละเอียด ALS: สเปก รายชื่อทุกคัน ภาพ →</a> <a href="class-ahk.html" class="inline-flex items-center gap-1 rounded-lg bg-rail-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-rail-800">ข้อมูลละเอียด AHK: สเปก รายชื่อทุกคัน ภาพ →</a></p>
+    <div class="prose-th max-w-3xl"><p>รถจักรดีเซลไฟฟ้าจากบริษัทอาลสตอม (สมัยนั้นสะกด Alsthom) ฝรั่งเศส กำลังราว 2,400 แรงม้า เป็นกำลังหลักของรถไฟไทยตั้งแต่ทศวรรษ 2520 จนถึงปัจจุบัน แบ่งเป็นหลายล็อตตามปีและผู้ร่วมผลิต ทุกวันนี้ถูกรถจักรรุ่นใหม่แทนที่ในขบวนด่วนพิเศษ แต่ยังพบได้ในขบวนรถเร็ว รถธรรมดา รถชานเมือง และรถสินค้า</p></div>
+    <div class="mt-6 grid gap-6 md:grid-cols-3">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Alsthom_diesel_locomotives_no.4103_at_Bangkok_Station.jpg/960px-Alsthom_diesel_locomotives_no.4103_at_Bangkok_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://upload.wikimedia.org/wikipedia/commons/6/67/Alsthom_diesel_locomotives_no.4103_at_Bangkok_Station.jpg" alt="รถจักร Alsthom ALS หมายเลข 4103 ที่สถานีกรุงเทพ" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">ALS หมายเลข 4103</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Thanapas.som · <a href="https://commons.wikimedia.org/wiki/File:Alsthom_diesel_locomotives_no.4103_at_Bangkok_Station.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/AHK4226-1.jpg/960px-AHK4226-1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/AHK4226-1.jpg/1920px-AHK4226-1.jpg" alt="รถจักร Alsthom AHK หมายเลข 4226 ทำขบวนรถชานเมืองออกจากสถานีรังสิต" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">AHK หมายเลข 4226 ที่สถานีรังสิต</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: NightNyZ15 · <a href="https://commons.wikimedia.org/wiki/File:AHK4226-1.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/SRT_locomotive_4415_at_Bangkok_Railway_Station.jpg/960px-SRT_locomotive_4415_at_Bangkok_Railway_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/SRT_locomotive_4415_at_Bangkok_Railway_Station.jpg/1920px-SRT_locomotive_4415_at_Bangkok_Railway_Station.jpg" alt="รถจักร Alsthom ADD หมายเลข 4415 ที่สถานีกรุงเทพ" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">ADD หมายเลข 4415</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Suikotei · <a href="https://commons.wikimedia.org/wiki/File:SRT_locomotive_4415_at_Bangkok_Railway_Station.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+    </div>
+    <div class="mt-6 overflow-x-auto rounded-2xl border border-stone-200 dark:border-stone-800">
+      <table class="w-full min-w-[520px] text-left text-[15px]">
+        <thead class="bg-cream-100 text-sm text-stone-600 dark:bg-stone-800 dark:text-stone-300"><tr><th class="px-4 py-3 font-medium">ชื่อเรียก</th><th class="px-4 py-3 font-medium">หมายเลข</th><th class="px-4 py-3 font-medium">ปีที่เข้าประจำการ</th><th class="px-4 py-3 font-medium">จุดสังเกต</th></tr></thead>
+        <tbody class="divide-y divide-stone-200 dark:divide-stone-800">
+          <tr><td class="px-4 py-3 font-medium">ALS</td><td class="px-4 py-3">4101–4154</td><td class="px-4 py-3">พ.ศ. 2517–2518</td><td class="px-4 py-3">ล็อตแรกและมากที่สุด 54 คัน</td></tr>
+          <tr><td class="px-4 py-3 font-medium">AHK</td><td class="px-4 py-3">4201–4230</td><td class="px-4 py-3">พ.ศ. 2523</td><td class="px-4 py-3">ชื่อมาจาก Alsthom–Henschel–Krupp (ผลิตในเยอรมนี)</td></tr>
+          <tr><td class="px-4 py-3 font-medium">ALD</td><td class="px-4 py-3">4301–4309</td><td class="px-4 py-3">พ.ศ. 2526</td><td class="px-4 py-3">ล็อตเล็ก 9 คัน</td></tr>
+          <tr><td class="px-4 py-3 font-medium">ADD</td><td class="px-4 py-3">4401–4420</td><td class="px-4 py-3">พ.ศ. 2528</td><td class="px-4 py-3">ล็อตสุดท้ายของตระกูลนี้</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+  </article>
+
+  <article id="hid" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/SRT_locomotive_4510_at_Bang_Sue_Railway_Station.jpg/960px-SRT_locomotive_4510_at_Bang_Sue_Railway_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/SRT_locomotive_4510_at_Bang_Sue_Railway_Station.jpg/1920px-SRT_locomotive_4510_at_Bang_Sue_Railway_Station.jpg" alt="รถจักรดีเซลไฟฟ้า Hitachi หมายเลข 4510 ที่สถานีบางซื่อ" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">Hitachi HID หมายเลข 4510 ที่สถานีบางซื่อ</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Suikotei · <a href="https://commons.wikimedia.org/wiki/File:SRT_locomotive_4510_at_Bang_Sue_Railway_Station.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <div class="flex flex-wrap gap-2"><span class="badge badge-run">ยังใช้งาน</span></div>
+        <h2 class="h-section mt-2">Hitachi HID (หมายเลข 4501–4522)</h2>
+        <p class="mt-2 flex flex-wrap gap-2"><a href="class-hid.html" class="inline-flex items-center gap-1 rounded-lg bg-rail-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-rail-800">ข้อมูลละเอียด: สเปก รายชื่อทุกคัน ภาพ →</a></p>
+        <div class="prose-th"><p>รถจักรดีเซลไฟฟ้าจากฮิตาชิ ญี่ปุ่น เข้าประจำการ พ.ศ. 2536 จำนวน 22 คัน ชื่อรุ่นจากโรงงานคือ 8FA-36C ช่วงแรกเป็นกำลังหลักของขบวนรถด่วนพิเศษ รถด่วน และรถเร็วทางไกล รวมถึงรถสินค้า ปัจจุบันลดบทบาทลงตามอายุการใช้งาน</p></div>
+        <dl class="facts mt-5"><dt>ผู้สร้าง</dt><dd>Hitachi (ญี่ปุ่น)</dd><dt>เข้าประจำการ</dt><dd>พ.ศ. 2536</dd><dt>จำนวน</dt><dd>22 คัน</dd><dt>ระบบส่งกำลัง</dt><dd>ดีเซลไฟฟ้า</dd></dl>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="gea" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/SRT_GE_CM22-7i_No._4523.jpg/960px-SRT_GE_CM22-7i_No._4523.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/SRT_GE_CM22-7i_No._4523.jpg/1920px-SRT_GE_CM22-7i_No._4523.jpg" alt="รถจักรดีเซลไฟฟ้า GE CM22-7i หมายเลข 4523" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">GE CM22-7i (GEA) หมายเลข 4523</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Geonuch · <a href="https://commons.wikimedia.org/wiki/File:SRT_GE_CM22-7i_No._4523.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <div class="flex flex-wrap gap-2"><span class="badge badge-run">ยังใช้งาน</span></div>
+        <h2 class="h-section mt-2">GE CM22-7i หรือ GEA (หมายเลข 4523–4560)</h2>
+        <p class="mt-2 flex flex-wrap gap-2"><a href="class-gea.html" class="inline-flex items-center gap-1 rounded-lg bg-rail-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-rail-800">ข้อมูลละเอียด: สเปก รายชื่อทุกคัน ภาพ →</a></p>
+        <div class="prose-th"><p>รถจักรดีเซลไฟฟ้าจากเจเนอรัลอิเล็กทริก (GE) สหรัฐอเมริกา เข้าประจำการ พ.ศ. 2538–2539 จำนวน 38 คัน หมายเลขต่อจากรุ่น Hitachi ทันที กำลังราว 2,500 แรงม้า ใช้ทำขบวนรถโดยสารทางไกลและรถสินค้าได้ทุกสาย ยังเห็นได้บ่อยจนถึงปัจจุบัน</p></div>
+        <dl class="facts mt-5"><dt>ผู้สร้าง</dt><dd>General Electric (สหรัฐฯ)</dd><dt>เข้าประจำการ</dt><dd>พ.ศ. 2538–2539</dd><dt>จำนวน</dt><dd>38 คัน</dd><dt>ระบบส่งกำลัง</dt><dd>ดีเซลไฟฟ้า</dd></dl>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="csr" class="detail">
+    <div class="flex flex-wrap gap-2"><span class="badge badge-new">รุ่นใหม่</span></div>
+    <h2 class="h-section mt-2">รถจักรจีน CSR SDA3 และ QSY</h2>
+        <p class="mt-2 flex flex-wrap gap-2"><a href="class-csr.html" class="inline-flex items-center gap-1 rounded-lg bg-rail-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-rail-800">ข้อมูลละเอียด CSR: สเปก รายชื่อทุกคัน ภาพ →</a> <a href="class-qsy.html" class="inline-flex items-center gap-1 rounded-lg bg-rail-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-rail-800">ข้อมูลละเอียด QSY: สเปก รายชื่อทุกคัน ภาพ →</a></p>
+    <div class="prose-th max-w-3xl">
+      <p><b>CSR SDA3 (หมายเลข 5101–5120)</b> รถจักรดีเซลไฟฟ้า 20 คัน จากบริษัท CSR Qishuyan ประเทศจีน (ปัจจุบันคือ CRRC Qishuyan) สั่งซื้อเมื่อ พ.ศ. 2558 เป็นรถจักรใหม่คันแรกในรอบ 20 ปี และเป็นรุ่นแรกของไทยที่รับน้ำหนักกดเพลาได้ถึง 20 ตัน ออกแบบมาเพื่อ <b>ลากขบวนสินค้าหนัก</b> เช่น ขบวนขนเกลือจากชุมทางบัวใหญ่ไปมาบตาพุด ลากได้ถึงราว 2,500 ตันต่อขบวน</p>
+      <p><b>QSY หรือ CRRC CDA5B1 (หมายเลข 5201–5250)</b> รถจักรดีเซลไฟฟ้า 50 คันจากผู้ผลิตเดียวกัน สั่งซื้อเมื่อ พ.ศ. 2564 เพื่อทดแทนรถจักรรุ่นเก่า แฟนรถไฟตั้งฉายาว่า <b>"รถจักรอุลตร้าแมน"</b> จากหน้าตาของรถ ปัจจุบันเป็นกำลังหลักของขบวนรถทางไกลไปเชียงใหม่ หนองคาย อุบลราชธานี และหาดใหญ่ รวมถึงขบวนรถนอน CNR และติดตั้งระบบความปลอดภัย ETCS</p>
+    </div>
+    <div class="mt-6 grid gap-6 md:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/CSR5105.jpg/960px-CSR5105.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/CSR5105.jpg/1920px-CSR5105.jpg" alt="รถจักร CSR SDA3 หมายเลข 5105 ที่ชุมทางศรีราชา" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">CSR SDA3 หมายเลข 5105 ที่ชุมทางศรีราชา</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: NightNyZ15 · <a href="https://commons.wikimedia.org/wiki/File:CSR5105.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/SRT_locomotive_5204_at_Bangkok_Railway_Station.jpg/960px-SRT_locomotive_5204_at_Bangkok_Railway_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/SRT_locomotive_5204_at_Bangkok_Railway_Station.jpg/1920px-SRT_locomotive_5204_at_Bangkok_Railway_Station.jpg" alt="รถจักร QSY หมายเลข 5204 ที่สถานีกรุงเทพ" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">QSY หมายเลข 5204 "รถจักรอุลตร้าแมน"</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Suikotei · <a href="https://commons.wikimedia.org/wiki/File:SRT_locomotive_5204_at_Bangkok_Railway_Station.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+    </div>
+    <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+  </article>
+
+  <article id="dd51" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/DD51_1137_at_Nong_Pladuk_Junction_railway_station_20240113.jpg/960px-DD51_1137_at_Nong_Pladuk_Junction_railway_station_20240113.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/DD51_1137_at_Nong_Pladuk_Junction_railway_station_20240113.jpg/1920px-DD51_1137_at_Nong_Pladuk_Junction_railway_station_20240113.jpg" alt="รถจักรดีเซล DD51 หมายเลข 1137 ที่ชุมทางหนองปลาดุก" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">DD51 หมายเลข 1137 ที่ชุมทางหนองปลาดุก พ.ศ. 2567</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Suikotei · <a href="https://commons.wikimedia.org/wiki/File:DD51_1137_at_Nong_Pladuk_Junction_railway_station_20240113.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <div class="flex flex-wrap gap-2"><span class="badge badge-new">มือสองจากญี่ปุ่น</span></div>
+        <h2 class="h-section mt-2">DD51 จากญี่ปุ่น</h2>
+        <div class="prose-th"><p>DD51 เป็นรถจักรดีเซลไฮดรอลิกที่มีชื่อเสียงของญี่ปุ่น เคยลากรถไฟนอนสายบลูเทรนมาหลายสิบปี เมื่อญี่ปุ่นปลดประจำการ ไทยได้รับมาจำนวนหนึ่ง ปัจจุบันเห็นจอดอยู่ที่ชุมทางหนองปลาดุก เป็นอีกตัวอย่างหนึ่งของความร่วมมือด้านรถไฟระหว่างไทยกับญี่ปุ่นที่มีมายาวนาน เช่นเดียวกับ <a href="railcars.html#kiha183">รถดีเซลราง KIHA 183</a></p></div>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+</div>
+
+</main>
+<footer class="mt-20 border-t border-stone-200 bg-cream-100/60 dark:border-stone-800 dark:bg-stone-900/50">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:grid-cols-3">
+    <div>
+      <p class="font-display text-base font-semibold text-stone-900 dark:text-stone-100">รถไฟไทย วิกิ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">สื่อการเรียนรู้เรื่องรถไฟไทย จัดทำเพื่อการศึกษา ไม่แสวงหากำไร และไม่ได้เป็นเว็บไซต์ทางการของการรถไฟแห่งประเทศไทย</p>
+      <p class="mt-3 flex gap-2 rounded-xl border border-amber-300 bg-amber-50 px-3 py-2 text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200"><svg viewBox="0 0 24 24" class="mt-0.5 h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg><span><b>คำเตือน:</b> เนื้อหาทั้งหมดถูกเรียบเรียงโดย AI กรุณาตรวจสอบข้อมูลให้ถูกต้องทุกครั้ง</span></p>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ขบวนรถ</p>
+      <ul class="mt-2 space-y-1 text-stone-600 dark:text-stone-400">
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="steam.html">รถจักรไอน้ำ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="diesel.html">รถจักรดีเซล</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="railcars.html">รถดีเซลรางและรถโดยสาร</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="electric.html">รถไฟฟ้าและความเร็วสูง</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="urban.html">รถไฟฟ้าในกรุงเทพฯ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="timetable.html">ตารางเดินรถ</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ข้อมูลและภาพ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">ภาพส่วนใหญ่มาจาก <a class="underline hover:text-rail-700" href="https://commons.wikimedia.org/">Wikimedia Commons</a> ภายใต้สัญญาอนุญาตครีเอทีฟคอมมอนส์ ดูชื่อผู้ถ่ายทั้งหมดได้ที่ <a class="underline hover:text-rail-700" href="sources.html">แหล่งอ้างอิง</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/lightbox.js" defer></script>
+
+</body>
+</html>

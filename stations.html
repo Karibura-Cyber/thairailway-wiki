@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="th" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>สถานีน่าสนใจ · รถไฟไทย วิกิ</title>
+<meta name="description" content="สถานีรถไฟและจุดเด่นที่ควรไปเห็นสักครั้ง">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Prompt:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="assets/js/loader.js"></script>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script src="assets/tailwind-config.js"></script>
+</head>
+<body id="top" class="bg-cream-50 font-sans text-[17px] leading-relaxed text-stone-800 antialiased dark:bg-stone-950 dark:text-stone-200">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-3 focus:py-2">ข้ามไปเนื้อหา</a>
+<header class="sticky top-0 z-40 border-b border-stone-200/80 bg-cream-50/90 backdrop-blur dark:border-stone-800 dark:bg-stone-950/90">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
+    <a href="index.html" class="flex items-center gap-2.5 font-display text-lg font-semibold text-stone-900 dark:text-stone-100"><svg viewBox="0 0 32 32" class="h-8 w-8 shrink-0" aria-hidden="true"><rect width="32" height="32" rx="8" class="fill-rail-700"/><path d="M10 7h12a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H10a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3Zm0 3v4h12v-4H10Zm1 7.5a1.5 1.5 0 1 0 0 .01Zm10 0a1.5 1.5 0 1 0 0 .01ZM11 23l-3 3m13-3 3 3" fill="none" stroke="#fdf8f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>รถไฟไทย <span class="text-rail-700 dark:text-rail-400">วิกิ</span></span></a>
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="เมนูหลัก">
+      <a href="history.html" class="nav-link">ประวัติ</a><div class="group relative">
+          <button class="nav-link inline-flex items-center gap-1">ขบวนรถ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute left-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ขบวนรถและการเดินทาง</a></div>
+          </div>
+        </div><a href="timetable.html" class="nav-link">ตารางเดินรถ</a><a href="trips.html" class="nav-link">เที่ยวรถไฟ</a><a href="lines.html" class="nav-link">เส้นทาง</a><a href="stations.html" class="nav-link nav-link-active">สถานี</a><div class="group relative">
+          <button class="nav-link inline-flex items-center gap-1">เรียนรู้ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute right-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="museums.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a></div>
+          </div>
+        </div>
+    </nav>
+    <details class="relative lg:hidden">
+      <summary class="flex cursor-pointer list-none items-center gap-2 rounded-lg border border-stone-300 px-3 py-1.5 text-sm dark:border-stone-700 [&::-webkit-details-marker]:hidden">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>เมนู
+      </summary>
+      <nav class="absolute right-0 top-full mt-2 max-h-[calc(100dvh-5rem)] w-72 max-w-[calc(100vw-2rem)] overflow-y-auto overscroll-contain rounded-xl border border-stone-200 bg-white p-2 shadow-xl dark:border-stone-700 dark:bg-stone-900" aria-label="เมนูมือถือ"><a href="index.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">หน้าแรก</a><a href="timetable.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ตารางเดินรถ</a><a href="trips.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">เที่ยวด้วยรถไฟ</a><a href="history.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ประวัติรถไฟไทย</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">ขบวนรถ</p><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ขบวนรถและการเดินทาง</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เส้นทางและสถานี</p><a href="lines.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">เส้นทางรถไฟ</a><a href="stations.html" class="block rounded-lg px-3 py-2 bg-rail-50 font-semibold text-rail-700 dark:bg-rail-950 dark:text-rail-300">สถานีน่าสนใจ</a><a href="station-list.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ทำเนียบสถานี</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เรียนรู้</p><a href="museums.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a><a href="sources.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งอ้างอิง</a></nav>
+    </details>
+  </div>
+</header>
+<main id="main">
+<section class="container-page pt-10">
+  <nav class="crumb"><a href="index.html" class="hover:underline">หน้าแรก</a> / สถานีน่าสนใจ</nav>
+  <h1 class="h-page mt-3">สถานีน่าสนใจ</h1>
+  <p class="lead mt-3 max-w-3xl">ทางรถไฟไทยมีสถานีหลายร้อยแห่ง บางสถานีมีประวัติยาวนาน บางแห่งสถาปัตยกรรมงดงาม และบางแห่งวิวสวยจนกลายเป็นจุดท่องเที่ยว ด้านล่างคือ 10 สถานีเด่นที่อ่านแบบละเอียดได้ ตามด้วยสถานีและจุดน่าสนใจอื่น ๆ อีกกว่า 25 แห่ง จัดกลุ่มตามภาค</p>
+  <p class="mt-4"><a href="station-list.html" class="inline-flex items-center gap-1 rounded-xl bg-rail-700 px-4 py-2.5 font-medium text-white hover:bg-rail-800">ค้นหาสถานีทั้ง 637 แห่งในทำเนียบสถานี →</a></p>
+</section>
+
+<section class="container-page mt-8">
+  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+    <a href="#hualamphong" class="card group"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Hua_Lamphong_railway_station_20240915.jpg/960px-Hua_Lamphong_railway_station_20240915.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Hua_Lamphong_railway_station_20240915.jpg/1920px-Hua_Lamphong_railway_station_20240915.jpg" data-credit="Suicasmo · CC BY-SA 4.0" alt="สถานีกรุงเทพ (หัวลำโพง)" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suicasmo · CC BY-SA 4.0</span>
+</div><p class="p-3 font-medium group-hover:text-rail-700">หัวลำโพง</p></a>
+    <a href="#aphiwat" class="card group"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Krung_Thep_Aphiwat_Central_Terminal_%28I%29.jpg/960px-Krung_Thep_Aphiwat_Central_Terminal_%28I%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Krung_Thep_Aphiwat_Central_Terminal_%28I%29.jpg/1920px-Krung_Thep_Aphiwat_Central_Terminal_%28I%29.jpg" data-credit="Supanut Arunoprayote · CC BY 4.0" alt="สถานีกลางกรุงเทพอภิวัฒน์" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Supanut Arunoprayote · CC BY 4.0</span>
+</div><p class="p-3 font-medium group-hover:text-rail-700">กรุงเทพอภิวัฒน์</p></a>
+    <a href="#thonburi" class="card group"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Siriraj_-_Old_Thonburi_Railway_Station.jpg/960px-Siriraj_-_Old_Thonburi_Railway_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Siriraj_-_Old_Thonburi_Railway_Station.jpg/1920px-Siriraj_-_Old_Thonburi_Railway_Station.jpg" data-credit="Supanut Arunoprayote · CC BY-SA 4.0" alt="อาคารสถานีธนบุรีเดิม" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Supanut Arunoprayote · CC BY-SA 4.0</span>
+</div><p class="p-3 font-medium group-hover:text-rail-700">ธนบุรี</p></a>
+    <a href="#huahin" class="card group"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hua_Hin_railway_station_1.jpg/960px-Hua_Hin_railway_station_1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hua_Hin_railway_station_1.jpg/1920px-Hua_Hin_railway_station_1.jpg" data-credit="Jr8825 · CC BY-SA 3.0" alt="สถานีหัวหิน" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Jr8825 · CC BY-SA 3.0</span>
+</div><p class="p-3 font-medium group-hover:text-rail-700">หัวหิน</p></a>
+    <a href="#chiangmai" class="card group"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Chiang_Mai_Thailand_Chiang-Mai-Railway-Station-01.jpg/960px-Chiang_Mai_Thailand_Chiang-Mai-Railway-Station-01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Chiang_Mai_Thailand_Chiang-Mai-Railway-Station-01.jpg/1920px-Chiang_Mai_Thailand_Chiang-Mai-Railway-Station-01.jpg" data-credit="CEphoto, Uwe Aranas · CC BY-SA 4.0" alt="สถานีเชียงใหม่" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">CEphoto, Uwe Aranas · CC BY-SA 4.0</span>
+</div><p class="p-3 font-medium group-hover:text-rail-700">เชียงใหม่</p></a>
+    <a href="#maeklong" class="card group"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Maeklong_Railway_Market_03.jpg/960px-Maeklong_Railway_Market_03.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Maeklong_Railway_Market_03.jpg/1920px-Maeklong_Railway_Market_03.jpg" data-credit="Codas · CC BY-SA 4.0" alt="ตลาดร่มหุบแม่กลอง" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Codas · CC BY-SA 4.0</span>
+</div><p class="p-3 font-medium group-hover:text-rail-700">แม่กลอง (ตลาดร่มหุบ)</p></a>
+    <a href="#kwai" class="card group"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Train_crossing_the_Kwai_River_Bridge.jpg/960px-Train_crossing_the_Kwai_River_Bridge.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Train_crossing_the_Kwai_River_Bridge.jpg/1920px-Train_crossing_the_Kwai_River_Bridge.jpg" data-credit="Kanpins · CC BY-SA 4.0" alt="รถไฟข้ามสะพานข้ามแม่น้ำแคว" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Kanpins · CC BY-SA 4.0</span>
+</div><p class="p-3 font-medium group-hover:text-rail-700">สะพานข้ามแม่น้ำแคว</p></a>
+    <a href="#wangpho" class="card group"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Wang_Pho_-_Mae_Klong.jpg/960px-Wang_Pho_-_Mae_Klong.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Wang_Pho_-_Mae_Klong.jpg/1920px-Wang_Pho_-_Mae_Klong.jpg" data-credit="PA · CC BY-SA 4.0" alt="ทางรถไฟเลียบหน้าผาวังโพ" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">PA · CC BY-SA 4.0</span>
+</div><p class="p-3 font-medium group-hover:text-rail-700">ถ้ำกระแซ (วังโพ)</p></a>
+    <a href="#nongkhai" class="card group"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nong_Khai_Railway_Station.JPG/960px-Nong_Khai_Railway_Station.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nong_Khai_Railway_Station.JPG/1920px-Nong_Khai_Railway_Station.JPG" data-credit="シャムネコ · CC BY-SA 3.0" alt="สถานีหนองคาย" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">シャムネコ · CC BY-SA 3.0</span>
+</div><p class="p-3 font-medium group-hover:text-rail-700">หนองคาย</p></a>
+    <a href="#padang" class="card group"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Padang_Besar_%28Thai%29_Railway_Station.jpg/960px-Padang_Besar_%28Thai%29_Railway_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Padang_Besar_%28Thai%29_Railway_Station.jpg/1920px-Padang_Besar_%28Thai%29_Railway_Station.jpg" data-credit="TransAsiatrip · CC0" alt="สถานีปาดังเบซาร์ ฝั่งไทย" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">TransAsiatrip · CC0</span>
+</div><p class="p-3 font-medium group-hover:text-rail-700">ปาดังเบซาร์</p></a>
+  </div>
+</section>
+
+<div class="container-page mt-14 space-y-10">
+
+  <article id="hualamphong" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Hua_Lamphong_railway_station_20240915.jpg/960px-Hua_Lamphong_railway_station_20240915.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Hua_Lamphong_railway_station_20240915.jpg/1920px-Hua_Lamphong_railway_station_20240915.jpg" alt="อาคารสถานีกรุงเทพ (หัวลำโพง) ด้านหน้า" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">ด้านหน้าสถานีกรุงเทพ (หัวลำโพง)</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Suicasmo · <a href="https://commons.wikimedia.org/wiki/File:Hua_Lamphong_railway_station_20240915.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <p class="text-sm text-stone-500">กรุงเทพฯ · เปิด พ.ศ. 2459</p>
+        <h2 class="h-section mt-1">สถานีกรุงเทพ (หัวลำโพง)</h2>
+        <div class="prose-th">
+          <p>เปิดใช้เมื่อ 25 มิถุนายน 2459 ในรัชสมัยรัชกาลที่ 6 ออกแบบโดยสถาปนิกชาวอิตาลี <b>มาริโอ ตามัญโญ</b> ในแบบนีโอเรอเนซองซ์ หลังคาโค้งเหล็กขนาดใหญ่ครอบชานชาลาทั้งหมด เป็นศูนย์กลางรถไฟไทยนานกว่า 100 ปี</p>
+          <p>ตั้งแต่ 19 มกราคม 2566 รถไฟทางไกลสายเหนือ อีสาน และใต้ย้ายไปเริ่มที่กรุงเทพอภิวัฒน์ แต่หัวลำโพงยังเป็นต้นทางของ <b>ขบวนสายตะวันออก</b> และรถชานเมืองหลายขบวน ภายในมีรถจักรไอน้ำ <a href="steam.html#c56">C56 หมายเลข 714</a> ตั้งแสดง และมักใช้เป็นจุดปล่อยขบวนรถจักรไอน้ำในวันสำคัญ</p>
+          <p class="text-[15px] text-stone-500">การเดินทาง: MRT สายสีน้ำเงิน สถานีหัวลำโพง</p>
+        </div>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="aphiwat" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Krung_Thep_Aphiwat_Central_Terminal_%28I%29.jpg/960px-Krung_Thep_Aphiwat_Central_Terminal_%28I%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Krung_Thep_Aphiwat_Central_Terminal_%28I%29.jpg/1920px-Krung_Thep_Aphiwat_Central_Terminal_%28I%29.jpg" alt="อาคารสถานีกลางกรุงเทพอภิวัฒน์ มองจากภายนอก" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">สถานีกลางกรุงเทพอภิวัฒน์ เขตจตุจักร</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Supanut Arunoprayote · <a href="https://commons.wikimedia.org/wiki/File:Krung_Thep_Aphiwat_Central_Terminal_(I).jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <p class="text-sm text-stone-500">กรุงเทพฯ · รถไฟทางไกลย้ายมา พ.ศ. 2566</p>
+        <h2 class="h-section mt-1">สถานีกลางกรุงเทพอภิวัฒน์</h2>
+        <div class="prose-th">
+          <p>เดิมชื่อ <b>สถานีกลางบางซื่อ</b> ได้รับพระราชทานชื่อใหม่ว่า "กรุงเทพอภิวัฒน์" เป็นสถานีรถไฟที่ใหญ่ที่สุดในเอเชียตะวันออกเฉียงใต้ อาคารแบ่งเป็นหลายชั้น ชั้นบนสำหรับรถไฟทางไกลและรถไฟฟ้า <a href="electric.html#redline">สายสีแดง</a> และเตรียมพื้นที่ไว้สำหรับ <a href="electric.html#hsr">รถไฟความเร็วสูง</a> กับแอร์พอร์ต เรล ลิงก์ส่วนต่อขยาย</p>
+          <p>ตั้งแต่ 19 มกราคม 2566 เป็นต้นทางของรถไฟทางไกลสายเหนือ อีสาน และใต้ เช่น ขบวนรถนอนไปเชียงใหม่ หนองคาย และหาดใหญ่</p>
+          <p class="text-[15px] text-stone-500">การเดินทาง: MRT สายสีน้ำเงิน สถานีบางซื่อ</p>
+        </div>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="thonburi" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Siriraj_-_Old_Thonburi_Railway_Station.jpg/960px-Siriraj_-_Old_Thonburi_Railway_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Siriraj_-_Old_Thonburi_Railway_Station.jpg/1920px-Siriraj_-_Old_Thonburi_Railway_Station.jpg" alt="อาคารสถานีธนบุรีเดิม สถาปัตยกรรมอิฐ ปัจจุบันอยู่ในโรงพยาบาลศิริราช" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">อาคารสถานีธนบุรีเดิม ปัจจุบันเป็นพิพิธภัณฑ์ศิริราชพิมุขสถาน</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Supanut Arunoprayote · <a href="https://commons.wikimedia.org/wiki/File:Siriraj_-_Old_Thonburi_Railway_Station.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <p class="text-sm text-stone-500">กรุงเทพฯ ฝั่งธนบุรี</p>
+        <h2 class="h-section mt-1">สถานีธนบุรี</h2>
+        <div class="prose-th">
+          <p>ต้นทางของทางรถไฟสายใต้ในอดีต เพราะสมัยนั้นยังไม่มีสะพานข้ามแม่น้ำเจ้าพระยา อาคารสถานีเดิมออกแบบโดยสถาปนิกชาวเยอรมัน <b>คาร์ล ซีกฟรีด เดอห์ริง</b> เป็นอาคารอิฐแบบ Brick Expressionism</p>
+          <p>ปัจจุบันอาคารเดิมอยู่ในพื้นที่โรงพยาบาลศิริราช และเปิดเป็น <a href="museums.html#siriraj">พิพิธภัณฑ์ศิริราชพิมุขสถาน</a> ส่วนสถานีธนบุรีที่ใช้งานอยู่ย้ายไปอยู่ไม่ไกลกัน เป็นต้นทางของขบวนธรรมดาไปสายน้ำตก (กาญจนบุรี) และสายใต้บางขบวน</p>
+        </div>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="huahin" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hua_Hin_railway_station_1.jpg/960px-Hua_Hin_railway_station_1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hua_Hin_railway_station_1.jpg/1920px-Hua_Hin_railway_station_1.jpg" alt="สถานีรถไฟหัวหินอาคารไม้สีแดงขาว" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">อาคารไม้สีแดงขาวของสถานีหัวหิน</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Jr8825 · <a href="https://commons.wikimedia.org/wiki/File:Hua_Hin_railway_station_1.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
+</figure>
+      <div>
+        <p class="text-sm text-stone-500">ประจวบคีรีขันธ์ · สายใต้</p>
+        <h2 class="h-section mt-1">สถานีหัวหิน</h2>
+        <div class="prose-th">
+          <p>สถานีที่ได้ชื่อว่าสวยที่สุดแห่งหนึ่งของไทย อาคารไม้ทาสีแดงสลับขาว และมี <b>พลับพลาที่ประทับ</b> หลังเล็กที่ใช้รับเสด็จพระบรมวงศานุวงศ์ซึ่งเสด็จแปรพระราชฐานมาประทับที่หัวหิน</p>
+          <p>รถไฟคือเหตุผลที่ทำให้หัวหินกลายเป็นเมืองตากอากาศชายทะเลแห่งแรก ๆ ของไทย เมื่อทางรถไฟสายใต้ผ่าน คนกรุงเทพฯ ก็เดินทางมาพักผ่อนได้สะดวก ปัจจุบันมีอาคารสถานีใหม่สำหรับทางคู่ ส่วนอาคารเดิมได้รับการอนุรักษ์ไว้</p>
+        </div>
+        <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hua_Hin_Railway_Station_20240113_09.jpg/960px-Hua_Hin_Railway_Station_20240113_09.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hua_Hin_Railway_Station_20240113_09.jpg/1920px-Hua_Hin_Railway_Station_20240113_09.jpg" alt="สถานีหัวหิน พ.ศ. 2567" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">สถานีหัวหิน มกราคม 2567</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Suikotei · <a href="https://commons.wikimedia.org/wiki/File:Hua_Hin_Railway_Station_20240113_09.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY 4.0</a></span></figcaption>
+</figure>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="chiangmai" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Chiang_Mai_Thailand_Chiang-Mai-Railway-Station-01.jpg/960px-Chiang_Mai_Thailand_Chiang-Mai-Railway-Station-01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Chiang_Mai_Thailand_Chiang-Mai-Railway-Station-01.jpg/1920px-Chiang_Mai_Thailand_Chiang-Mai-Railway-Station-01.jpg" alt="อาคารสถานีรถไฟเชียงใหม่" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">สถานีรถไฟเชียงใหม่ ปลายทางสายเหนือ</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: CEphoto, Uwe Aranas · <a href="https://commons.wikimedia.org/wiki/File:Chiang_Mai_Thailand_Chiang-Mai-Railway-Station-01.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <p class="text-sm text-stone-500">เชียงใหม่ · ปลายทางสายเหนือ</p>
+        <h2 class="h-section mt-1">สถานีเชียงใหม่</h2>
+        <div class="prose-th">
+          <p>ปลายทางของทางรถไฟสายเหนือ ห่างจากกรุงเทพฯ 751 กม. ทางรถไฟมาถึงเมื่อ พ.ศ. 2465 หลังเจาะอุโมงค์ขุนตานสำเร็จ ก่อนหน้านั้นการเดินทางจากกรุงเทพฯ ไปเชียงใหม่ต้องใช้เรือและช้างนานหลายสัปดาห์</p>
+          <p>อาคารสถานีเดิมเสียหายจากการทิ้งระเบิดในสงครามโลกครั้งที่ 2 อาคารที่เห็นในปัจจุบันสร้างขึ้นใหม่ภายหลัง ขบวนรถนอนกรุงเทพฯ–เชียงใหม่เป็นหนึ่งในเส้นทางรถไฟยอดนิยมของนักท่องเที่ยว</p>
+        </div>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="maeklong" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Maeklong_Railway_Market_03.jpg/960px-Maeklong_Railway_Market_03.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Maeklong_Railway_Market_03.jpg/1920px-Maeklong_Railway_Market_03.jpg" alt="แผงค้าริมรางรถไฟที่ตลาดร่มหุบแม่กลอง" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">แผงค้าวางชิดรางที่ตลาดร่มหุบ</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Codas · <a href="https://commons.wikimedia.org/wiki/File:Maeklong_Railway_Market_03.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <p class="text-sm text-stone-500">สมุทรสงคราม · สายแม่กลอง</p>
+        <h2 class="h-section mt-1">สถานีแม่กลองและตลาดร่มหุบ</h2>
+        <div class="prose-th">
+          <p>ปลายทางของ <a href="lines.html#maeklong">ทางรถไฟสายแม่กลอง</a> ทางรถไฟช่วงก่อนเข้าสถานีวิ่งผ่านกลางตลาดสด แม่ค้าวางสินค้าชิดราง พอได้ยินเสียงหวูดก็จะ "หุบร่ม" และดึงแผงถอยออกไป รถไฟแล่นผ่านไปอย่างช้า ๆ แล้วตลาดก็กลับมาเหมือนเดิมภายในไม่กี่นาที</p>
+          <p>ภาพนี้ทำให้ตลาดร่มหุบโด่งดังไปทั่วโลก ถ้าจะไปชมควรเช็กเวลารถไฟเข้า–ออกล่วงหน้า</p>
+        </div>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="kwai" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Train_crossing_the_Kwai_River_Bridge.jpg/960px-Train_crossing_the_Kwai_River_Bridge.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Train_crossing_the_Kwai_River_Bridge.jpg/1920px-Train_crossing_the_Kwai_River_Bridge.jpg" alt="ขบวนรถไฟกำลังข้ามสะพานข้ามแม่น้ำแคว" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">ขบวนรถไฟกำลังข้ามสะพานข้ามแม่น้ำแคว</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Kanpins · <a href="https://commons.wikimedia.org/wiki/File:Train_crossing_the_Kwai_River_Bridge.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <p class="text-sm text-stone-500">กาญจนบุรี · สายน้ำตก</p>
+        <h2 class="h-section mt-1">สะพานข้ามแม่น้ำแคว</h2>
+        <div class="prose-th">
+          <p>สะพานเหล็กบน <a href="history.html#era4">ทางรถไฟสายมรณะ</a> สร้างโดยกองทัพญี่ปุ่นในสงครามโลกครั้งที่ 2 ช่วงกลางของสะพานถูกระเบิดในปี 2488 และซ่อมขึ้นใหม่หลังสงคราม จึงสังเกตเห็นว่าโครงเหล็กช่วงกลางมีรูปทรงต่างจากช่วงอื่น</p>
+          <p>ปัจจุบันเดินข้ามสะพานได้ และมีขบวนรถธนบุรี–น้ำตกแล่นผ่านทุกวัน ช่วงปลายพฤศจิกายนถึงต้นธันวาคมมีงานสัปดาห์สะพานข้ามแม่น้ำแคว ซึ่งมักมีขบวน <a href="steam.html#c56">รถจักรไอน้ำ C56</a> มาวิ่งด้วย ใกล้กันมีรถจักรไอน้ำตั้งแสดงหลายคัน</p>
+        </div>
+        <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/River_Kwai_Bridge_Railway_Station.jpg/960px-River_Kwai_Bridge_Railway_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/River_Kwai_Bridge_Railway_Station.jpg/1920px-River_Kwai_Bridge_Railway_Station.jpg" alt="สถานีรถไฟสะพานแควใหญ่" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">สถานีสะพานแควใหญ่ ใกล้ตัวสะพาน</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Supanut Arunoprayote · <a href="https://commons.wikimedia.org/wiki/File:River_Kwai_Bridge_Railway_Station.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY 4.0</a></span></figcaption>
+</figure>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="wangpho" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Wang_Pho_-_Mae_Klong.jpg/960px-Wang_Pho_-_Mae_Klong.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Wang_Pho_-_Mae_Klong.jpg/1920px-Wang_Pho_-_Mae_Klong.jpg" alt="ทางรถไฟสะพานไม้เลียบหน้าผาและแม่น้ำแควน้อยที่วังโพ" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">ทางรถไฟเลียบหน้าผาริมแม่น้ำแควน้อยที่วังโพ</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: PA · <a href="https://commons.wikimedia.org/wiki/File:Wang_Pho_-_Mae_Klong.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <div>
+        <p class="text-sm text-stone-500">กาญจนบุรี · สายน้ำตก</p>
+        <h2 class="h-section mt-1">ถ้ำกระแซ และทางเลียบหน้าผาวังโพ</h2>
+        <div class="prose-th">
+          <p>ช่วงที่สวยและน่าตื่นเต้นที่สุดของสายน้ำตก ทางรถไฟเป็น <b>สะพานไม้เลียบหน้าผา</b> ริมแม่น้ำแควน้อย ยาวหลายร้อยเมตร ใกล้กับถ้ำกระแซ รถไฟจะชะลอความเร็วให้ผู้โดยสารชมวิว</p>
+          <p>สะพานนี้สร้างโดยเชลยศึกและแรงงานในสงครามโลกครั้งที่ 2 เช่นเดียวกับสะพานข้ามแม่น้ำแคว จึงเป็นทั้งจุดชมวิวและสถานที่ทางประวัติศาสตร์ที่ควรรำลึกถึงผู้เสียชีวิต</p>
+        </div>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="nongkhai" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nong_Khai_Railway_Station.JPG/960px-Nong_Khai_Railway_Station.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nong_Khai_Railway_Station.JPG/1920px-Nong_Khai_Railway_Station.JPG" alt="อาคารสถานีรถไฟหนองคาย" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">สถานีหนองคาย</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: シャムネコ · <a href="https://commons.wikimedia.org/wiki/File:Nong_Khai_Railway_Station.JPG" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
+</figure>
+      <div>
+        <p class="text-sm text-stone-500">หนองคาย · สายอีสาน</p>
+        <h2 class="h-section mt-1">สถานีหนองคาย</h2>
+        <div class="prose-th">
+          <p>ปลายทางสายอีสานเหนือ ห่างจากกรุงเทพฯ 624 กม. และเป็น <b>ประตูรถไฟสู่ลาว</b> ตั้งแต่ พ.ศ. 2552 มีรถไฟข้ามสะพานมิตรภาพไทย–ลาวแห่งที่ 1 ไปสถานีท่านาแล้ง และตั้งแต่ พ.ศ. 2567 มีขบวนรถนอนจากกรุงเทพฯ ไปถึงสถานีคำสะหวาด นครหลวงเวียงจันทน์ ซึ่งเชื่อมต่อกับรถไฟลาว–จีนได้</p>
+        </div>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="padang" class="detail">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Padang_Besar_%28Thai%29_Railway_Station.jpg/960px-Padang_Besar_%28Thai%29_Railway_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Padang_Besar_%28Thai%29_Railway_Station.jpg/1920px-Padang_Besar_%28Thai%29_Railway_Station.jpg" alt="สถานีปาดังเบซาร์ ฝั่งไทย จังหวัดสงขลา" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">สถานีปาดังเบซาร์ (ฝั่งไทย)</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: TransAsiatrip · <a href="https://commons.wikimedia.org/wiki/File:Padang_Besar_(Thai)_Railway_Station.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC0</a></span></figcaption>
+</figure>
+      <div>
+        <p class="text-sm text-stone-500">สงขลา · ชายแดนไทย–มาเลเซีย</p>
+        <h2 class="h-section mt-1">สถานีปาดังเบซาร์</h2>
+        <div class="prose-th">
+          <p>สถานีชายแดนไทย–มาเลเซียบนทางแยกจากชุมทางหาดใหญ่ เส้นทางนี้เคยมีขบวนรถระหว่างประเทศจากกรุงเทพฯ ไปถึงบัตเตอร์เวิร์ธ (ปีนัง) ปัจจุบันขบวนจากกรุงเทพฯ สิ้นสุดที่ปาดังเบซาร์ และผู้โดยสารสามารถต่อรถไฟฟ้า ETS ของมาเลเซียไปกัวลาลัมเปอร์ได้</p>
+        </div>
+        <a href="#top" class="to-top">↑ กลับขึ้นด้านบน</a>
+      </div>
+    </div>
+  </article>
+</div>
+
+<section class="container-page mt-16">
+  <h2 class="h-section">สถานีอื่น ๆ ทั่วประเทศ</h2>
+  <div class="mt-4 flex flex-wrap gap-2"><a href="#st-central" class="chip">ภาคกลางและกรุงเทพฯ</a><a href="#st-north" class="chip">ภาคเหนือ</a><a href="#st-ne" class="chip">ภาคตะวันออกเฉียงเหนือ</a><a href="#st-south" class="chip">ภาคตะวันตกและภาคใต้</a></div>
+  <h3 id="st-central" class="h-item mt-10 scroll-mt-24">ภาคกลางและกรุงเทพฯ</h3>
+  <div class="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+    <div id="ayutthaya" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Ayutthaya_railway_station_202301-1.jpg/960px-Ayutthaya_railway_station_202301-1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Ayutthaya_railway_station_202301-1.jpg/1920px-Ayutthaya_railway_station_202301-1.jpg" data-credit="Suikotei · CC BY-SA 4.0" alt="สถานีรถไฟอยุธยา" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">พระนครศรีอยุธยา · สายเหนือ/อีสาน</p><h3 class="h-item mt-0.5">อยุธยา</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ปลายทางของทางรถไฟหลวงช่วงแรกที่เปิดเมื่อ 26 มี.ค. 2440 ปัจจุบันเป็นสถานีที่มีรายได้ผู้โดยสารสูงเป็นอันดับสองรองจากกรุงเทพฯ เดินไปท่าเรือข้ามฟากเพื่อเข้าเกาะเมืองอยุธยาได้</p></div>
+    </div>
+    <div id="banphachi" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Ban_Phachi_Junction_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" data-full="https://upload.wikimedia.org/wikipedia/commons/7/7e/Ban_Phachi_Junction_Station.jpg" data-credit="Timekeepertmk · CC BY 3.0" alt="สถานีชุมทางบ้านภาชี" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Timekeepertmk · CC BY 3.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">พระนครศรีอยุธยา</p><h3 class="h-item mt-0.5">ชุมทางบ้านภาชี</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">จุดที่ทางสายเหนือแยกจากสายอีสาน ทุกขบวนที่ไปเชียงใหม่หรือหนองคาย/อุบลฯ ต้องผ่านที่นี่ หน้าสถานีมีรถจักรไอน้ำเท็นวีลเลอร์หมายเลข 177 ตั้งแสดง</p></div>
+    </div>
+    <div id="lopburi" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Lopburi_Railway_Station_202301-1.jpg/960px-Lopburi_Railway_Station_202301-1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Lopburi_Railway_Station_202301-1.jpg/1920px-Lopburi_Railway_Station_202301-1.jpg" data-credit="Suikotei · CC BY-SA 4.0" alt="สถานีรถไฟลพบุรี" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">ลพบุรี · สายเหนือ</p><h3 class="h-item mt-0.5">ลพบุรี</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ปลายทางของรถชานเมืองสายเหนือ สถานีอยู่ใกล้พระปรางค์สามยอดและฝูงลิงชื่อดังของเมือง มีรถจักรไอน้ำ (ทาสีเป็นหมายเลข 161) ตั้งแสดง</p></div>
+    </div>
+    <div id="bangsue" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Bang_Sue_Junction_railway_station_01.jpg/960px-Bang_Sue_Junction_railway_station_01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Bang_Sue_Junction_railway_station_01.jpg/1920px-Bang_Sue_Junction_railway_station_01.jpg" data-credit="Boonlert · CC0" alt="สถานีชุมทางบางซื่อ" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Boonlert · CC0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">กรุงเทพฯ</p><h3 class="h-item mt-0.5">ชุมทางบางซื่อ (สถานีเดิม)</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สถานีชุมทางเก่าที่รถไฟสายใต้แยกไปทางสะพานพระราม 6 และเคยเป็นย่านสินค้าใหญ่ของกรุงเทพฯ ปัจจุบันรถไฟทางไกลย้ายไปที่สถานีกลางกรุงเทพอภิวัฒน์ซึ่งอยู่ใกล้กัน</p></div>
+    </div>
+    <div id="chitralada" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/201701_Station_building_of_Chitralada_Station.jpg/960px-201701_Station_building_of_Chitralada_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/201701_Station_building_of_Chitralada_Station.jpg/1920px-201701_Station_building_of_Chitralada_Station.jpg" data-credit="MNXANL · CC BY-SA 4.0" alt="อาคารที่หยุดรถไฟจิตรลดา" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">MNXANL · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">กรุงเทพฯ</p><h3 class="h-item mt-0.5">จิตรลดา</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สถานีไม้หลังเล็กใกล้พระตำหนักจิตรลดารโหฐาน ใช้สำหรับขบวนรถพระที่นั่ง เช่น เมื่อปี 2530 ขบวนเสด็จที่ใช้รถจักรไอน้ำออกเดินทางจากสถานีนี้ไปกาญจนบุรี</p></div>
+    </div>
+    <div id="rama6" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Rama_6_bridge.JPG/960px-Rama_6_bridge.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Rama_6_bridge.JPG/1920px-Rama_6_bridge.JPG" data-credit="Erzengel · CC BY-SA 4.0" alt="สะพานพระราม 6 ข้ามแม่น้ำเจ้าพระยา" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Erzengel · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">กรุงเทพฯ–นนทบุรี</p><h3 class="h-item mt-0.5">สะพานพระราม 6</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สะพานรถไฟแห่งแรกที่ข้ามแม่น้ำเจ้าพระยา เปิดใช้ พ.ศ. 2470 ทำให้ทางรถไฟฝั่งพระนครกับฝั่งธนบุรีเชื่อมกันได้ ถูกระเบิดจนพังในสงครามโลกครั้งที่ 2 แล้วซ่อมขึ้นใหม่หลังสงคราม</p></div>
+    </div>
+    <div id="salaya" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Salaya_Railway_Station_20220603-1.jpg/960px-Salaya_Railway_Station_20220603-1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Salaya_Railway_Station_20220603-1.jpg/1920px-Salaya_Railway_Station_20220603-1.jpg" data-credit="Suikotei · CC BY-SA 4.0" alt="สถานีรถไฟศาลายา" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">นครปฐม · สายใต้</p><h3 class="h-item mt-0.5">ศาลายา</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สถานีใกล้มหาวิทยาลัยมหิดล ศาลายา และหอภาพยนตร์ (มีรถจักรไอน้ำ C56 หมายเลข 738) ตั้งแต่ปี 2553 มีรถชานเมืองธนบุรี–ศาลายาให้บริการ</p></div>
+    </div>
+    <div id="nakhonpathom" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Nakhon_Pathom_railway_station_20220603.jpg/960px-Nakhon_Pathom_railway_station_20220603.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Nakhon_Pathom_railway_station_20220603.jpg/1920px-Nakhon_Pathom_railway_station_20220603.jpg" data-credit="Suikotei · CC BY-SA 4.0" alt="สถานีรถไฟนครปฐม" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">นครปฐม · สายใต้</p><h3 class="h-item mt-0.5">นครปฐม</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สถานีหลักของรถชานเมืองสายใต้ อยู่ไม่ไกลจากองค์พระปฐมเจดีย์ เป็นจุดจอดของรถไฟสายใต้และขบวนนำเที่ยวไปน้ำตก</p></div>
+    </div>
+  </div>
+  <h3 id="st-north" class="h-item mt-10 scroll-mt-24">ภาคเหนือ</h3>
+  <div class="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+    <div id="phitsanulok" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Phitsanulok_station_20220812-2.jpg/960px-Phitsanulok_station_20220812-2.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Phitsanulok_station_20220812-2.jpg/1920px-Phitsanulok_station_20220812-2.jpg" data-credit="Suikotei · CC BY-SA 4.0" alt="สถานีรถไฟพิษณุโลก" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">พิษณุโลก</p><h3 class="h-item mt-0.5">พิษณุโลก</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สถานีกลางทางสายเหนือ ใกล้วัดพระศรีรัตนมหาธาตุ (พระพุทธชินราช) มีรถจักรไอน้ำเท็นวีลเลอร์หมายเลข 181 ตั้งแสดง</p></div>
+    </div>
+    <div id="uttaradit" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Uttaradit_Station_1.JPG/960px-Uttaradit_Station_1.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Uttaradit_Station_1.JPG/1920px-Uttaradit_Station_1.JPG" data-credit="シャムネコ · CC BY-SA 4.0" alt="สถานีรถไฟอุตรดิตถ์" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">シャムネコ · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">อุตรดิตถ์</p><h3 class="h-item mt-0.5">อุตรดิตถ์</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ทางรถไฟมาถึงเมื่อ พ.ศ. 2452 ก่อนจะชะงักไปหลายปีเพราะต้องเจาะภูเขาขึ้นเหนือ ใกล้กันคือสถานีศิลาอาสน์ซึ่งเป็นโรงรถจักรและจุดเติมเชื้อเพลิงก่อนขึ้นเขา</p></div>
+    </div>
+    <div id="khuntan" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Khun_Tan_Railway_Station_20230225-1.jpg/960px-Khun_Tan_Railway_Station_20230225-1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Khun_Tan_Railway_Station_20230225-1.jpg/1920px-Khun_Tan_Railway_Station_20230225-1.jpg" data-credit="Suikotei · CC BY-SA 4.0" alt="สถานีรถไฟขุนตาน" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">ลำพูน</p><h3 class="h-item mt-0.5">ขุนตาน</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สถานีบนภูเขาที่ปากอุโมงค์ขุนตาน เป็นทางเข้าอุทยานแห่งชาติดอยขุนตาน นักเดินป่านิยมนั่งรถไฟมาลงที่นี่</p></div>
+    </div>
+    <div id="lampang" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Nakhon_Lampang_Railway_Station_%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F_%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87_%28Dec_2021%29_IMG_01.jpg/960px-Nakhon_Lampang_Railway_Station_%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F_%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87_%28Dec_2021%29_IMG_01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Nakhon_Lampang_Railway_Station_%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F_%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87_%28Dec_2021%29_IMG_01.jpg/1920px-Nakhon_Lampang_Railway_Station_%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F_%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87_%28Dec_2021%29_IMG_01.jpg" data-credit="Chainwit. · CC BY-SA 4.0" alt="สถานีรถไฟนครลำปาง" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Chainwit. · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">ลำปาง</p><h3 class="h-item mt-0.5">นครลำปาง</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">โรงรถจักรสำคัญของสายเหนือ หน้าสถานีมีรถม้าลำปางรอรับผู้โดยสาร และมีรถจักรไอน้ำ C56 หมายเลข 728 กับรถจักรดีเซล Davenport ตั้งแสดง</p></div>
+    </div>
+  </div>
+  <h3 id="st-ne" class="h-item mt-10 scroll-mt-24">ภาคตะวันออกเฉียงเหนือ</h3>
+  <div class="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+    <div id="kaengkhoi" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Kaeng_Khoi_Railway_Station_202301-1.jpg/960px-Kaeng_Khoi_Railway_Station_202301-1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Kaeng_Khoi_Railway_Station_202301-1.jpg/1920px-Kaeng_Khoi_Railway_Station_202301-1.jpg" data-credit="Suikotei · CC BY-SA 4.0" alt="สถานีชุมทางแก่งคอย" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">สระบุรี</p><h3 class="h-item mt-0.5">ชุมทางแก่งคอย</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">จุดแยกไปสายบัวใหญ่และทางเชื่อมไปคลองสิบเก้า (สายตะวันออก) ขบวนสินค้าหนักต้องแบ่งขบวนที่นี่ก่อนขึ้นทางชันช่วงดงพญาเย็น</p></div>
+    </div>
+    <div id="korat" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/2019_0211_Nakhon_Ratchasima_train_station.jpg/960px-2019_0211_Nakhon_Ratchasima_train_station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/2019_0211_Nakhon_Ratchasima_train_station.jpg/1920px-2019_0211_Nakhon_Ratchasima_train_station.jpg" data-credit="Takeaway · CC BY-SA 4.0" alt="สถานีรถไฟนครราชสีมา" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Takeaway · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">นครราชสีมา</p><h3 class="h-item mt-0.5">นครราชสีมา</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ทางรถไฟหลวงมาถึงโคราชเมื่อ 21 ธ.ค. 2443 ปัจจุบันเป็นโรงรถจักรหลักของสายอีสาน หน้าสถานีมีรถจักรไอน้ำตั้งแสดง</p></div>
+    </div>
+    <div id="udon" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Udon_Thani_Railway_Station%2C_Thailand.jpg/960px-Udon_Thani_Railway_Station%2C_Thailand.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Udon_Thani_Railway_Station%2C_Thailand.jpg/1920px-Udon_Thani_Railway_Station%2C_Thailand.jpg" data-credit="Kudpung · CC BY-SA 3.0" alt="สถานีรถไฟอุดรธานี" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Kudpung · CC BY-SA 3.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">อุดรธานี</p><h3 class="h-item mt-0.5">อุดรธานี</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สถานีใหญ่บนสายหนองคาย ทางช่วงอุดรธานี–หนองคายสร้างเสร็จเมื่อ พ.ศ. 2498 ด้วยความช่วยเหลือจากสหรัฐอเมริกา</p></div>
+    </div>
+    <div id="ubon" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Ubon_Ratchathani_railway_station_2024.jpg/960px-Ubon_Ratchathani_railway_station_2024.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Ubon_Ratchathani_railway_station_2024.jpg/1920px-Ubon_Ratchathani_railway_station_2024.jpg" data-credit="Reversemos.sapanaht · CC BY-SA 4.0" alt="สถานีรถไฟอุบลราชธานี" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Reversemos.sapanaht · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">อุบลราชธานี</p><h3 class="h-item mt-0.5">อุบลราชธานี</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ปลายทางสายอีสานใต้ ตั้งอยู่ในอำเภอวารินชำราบ ฝั่งใต้ของแม่น้ำมูล เคยชื่อ "สถานีวารินทร์" จนถึงราว พ.ศ. 2485 มีรถจักรไอน้ำเท็นวีลเลอร์หมายเลข 180 ตั้งแสดง</p></div>
+    </div>
+    <div id="thanaleng" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Thanaleng_Station_01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" data-full="https://upload.wikimedia.org/wikipedia/commons/0/04/Thanaleng_Station_01.jpg" data-credit="saka-san · CC BY-SA 1.0" alt="สถานีท่านาแล้ง ประเทศลาว" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">saka-san · CC BY-SA 1.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">ลาว</p><h3 class="h-item mt-0.5">ท่านาแล้ง และคำสะหวาด</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ท่านาแล้งเป็นสถานีแรกในลาว เปิดเมื่อ พ.ศ. 2552 ต่อมามีการต่อทางไปถึงสถานีคำสะหวาด นครหลวงเวียงจันทน์ ซึ่งมีขบวนรถเร็วจากกรุงเทพฯ วิ่งตรงถึง</p></div>
+    </div>
+  </div>
+  <h3 id="st-south" class="h-item mt-10 scroll-mt-24">ภาคตะวันตกและภาคใต้</h3>
+  <div class="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+    <div id="ratchaburi" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ratchaburi_Railway_Station_20240113_01.jpg/960px-Ratchaburi_Railway_Station_20240113_01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ratchaburi_Railway_Station_20240113_01.jpg/1920px-Ratchaburi_Railway_Station_20240113_01.jpg" data-credit="Suikotei · CC BY 4.0" alt="สถานีรถไฟราชบุรี" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">ราชบุรี</p><h3 class="h-item mt-0.5">ราชบุรี</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ปลายทางของรถชานเมืองสายใต้ ก่อนถึงสถานีทางรถไฟวิ่งข้ามแม่น้ำแม่กลอง</p></div>
+    </div>
+    <div id="phetchaburi" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Phetchaburi_Railway_Station_20240113_01.jpg/960px-Phetchaburi_Railway_Station_20240113_01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Phetchaburi_Railway_Station_20240113_01.jpg/1920px-Phetchaburi_Railway_Station_20240113_01.jpg" data-credit="Suikotei · CC BY 4.0" alt="สถานีรถไฟเพชรบุรี" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">เพชรบุรี</p><h3 class="h-item mt-0.5">เพชรบุรี</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ปลายทางของทางรถไฟสายใต้ช่วงแรก (ธนบุรี–เพชรบุรี) ที่เปิดเมื่อ 19 มิ.ย. 2446 อยู่ไม่ไกลจากพระนครคีรี (เขาวัง)</p></div>
+    </div>
+    <div id="suanson" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%98%E0%B9%8C_-_panoramio_-_SIAMSEARCH_%281%29.jpg/960px-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%98%E0%B9%8C_-_panoramio_-_SIAMSEARCH_%281%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%98%E0%B9%8C_-_panoramio_-_SIAMSEARCH_%281%29.jpg/1920px-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%98%E0%B9%8C_-_panoramio_-_SIAMSEARCH_%281%29.jpg" data-credit="SIAMSEARCH · CC BY 3.0" alt="สถานีรถไฟสวนสนประดิพัทธ์" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">SIAMSEARCH · CC BY 3.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">ประจวบคีรีขันธ์</p><h3 class="h-item mt-0.5">สวนสนประดิพัทธ์</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ที่หยุดรถริมทะเลทางใต้ของหัวหิน ปลายทางของขบวนนำเที่ยว 911/912 และรถธรรมดาจากหัวลำโพง</p></div>
+    </div>
+    <div id="namtok" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Nam_Tok_railway_station_20240226_01.jpg/960px-Nam_Tok_railway_station_20240226_01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Nam_Tok_railway_station_20240226_01.jpg/1920px-Nam_Tok_railway_station_20240226_01.jpg" data-credit="Suikotei · CC BY 4.0" alt="สถานีรถไฟน้ำตก" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">กาญจนบุรี</p><h3 class="h-item mt-0.5">น้ำตก</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ปลายทางปัจจุบันของทางรถไฟสายมรณะ ห่างจากธนบุรีราว 193 กม. ใกล้น้ำตกไทรโยคน้อย ซึ่งมีรถจักรไอน้ำ C56 หมายเลข 702 ตั้งแสดง</p></div>
+    </div>
+    <div id="thamkrasae" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Thamkra_Sae-05.JPG/960px-Thamkra_Sae-05.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Thamkra_Sae-05.JPG/1920px-Thamkra_Sae-05.JPG" data-credit="Wayne77 · CC BY-SA 4.0" alt="สะพานไม้วังโพใกล้ที่หยุดรถถ้ำกระแซ" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Wayne77 · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">กาญจนบุรี</p><h3 class="h-item mt-0.5">ที่หยุดรถถ้ำกระแซ</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ที่หยุดรถเล็ก ๆ ปลายสะพานไม้เลียบหน้าผาวังโพ ผู้โดยสารมักลงเดินชมถ้ำและวิวแม่น้ำแควน้อย</p></div>
+    </div>
+    <div id="hatyai" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Hat_Yai_Junction_Station.jpg/960px-Hat_Yai_Junction_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Hat_Yai_Junction_Station.jpg/1920px-Hat_Yai_Junction_Station.jpg" data-credit="Fuwuyuan · CC BY-SA 4.0" alt="สถานีชุมทางหาดใหญ่" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Fuwuyuan · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">สงขลา</p><h3 class="h-item mt-0.5">ชุมทางหาดใหญ่</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ชุมทางใหญ่ที่สุดของภาคใต้ แยกไปปาดังเบซาร์ (มาเลเซีย) และสุไหงโก-ลก เป็นโรงรถจักรสำคัญ มีรถจักรไอน้ำแปซิฟิกของ Baldwin หมายเลข 244 ตั้งแสดง</p></div>
+    </div>
+    <div id="sungaikolok" class="card scroll-mt-24">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Su-ngai_Kolok_Railway_Station.jpg/960px-Su-ngai_Kolok_Railway_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Su-ngai_Kolok_Railway_Station.jpg/1920px-Su-ngai_Kolok_Railway_Station.jpg" data-credit="Tealsp · CC BY 4.0" alt="สถานีรถไฟสุไหงโก-ลก" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Tealsp · CC BY 4.0</span>
+</div>
+      <div class="p-5"><p class="text-sm text-stone-500">นราธิวาส</p><h3 class="h-item mt-0.5">สุไหงโก-ลก</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ปลายทางใต้สุดของทางรถไฟไทย ห่างจากกรุงเทพอภิวัฒน์ 1,152 กม. เคยเป็นสถานีระหว่างประเทศที่เชื่อมกับรันเตาปันจังของมาเลเซีย</p></div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="mt-20 border-t border-stone-200 bg-cream-100/60 dark:border-stone-800 dark:bg-stone-900/50">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:grid-cols-3">
+    <div>
+      <p class="font-display text-base font-semibold text-stone-900 dark:text-stone-100">รถไฟไทย วิกิ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">สื่อการเรียนรู้เรื่องรถไฟไทย จัดทำเพื่อการศึกษา ไม่แสวงหากำไร และไม่ได้เป็นเว็บไซต์ทางการของการรถไฟแห่งประเทศไทย</p>
+      <p class="mt-3 flex gap-2 rounded-xl border border-amber-300 bg-amber-50 px-3 py-2 text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200"><svg viewBox="0 0 24 24" class="mt-0.5 h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg><span><b>คำเตือน:</b> เนื้อหาทั้งหมดถูกเรียบเรียงโดย AI กรุณาตรวจสอบข้อมูลให้ถูกต้องทุกครั้ง</span></p>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ขบวนรถ</p>
+      <ul class="mt-2 space-y-1 text-stone-600 dark:text-stone-400">
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="steam.html">รถจักรไอน้ำ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="diesel.html">รถจักรดีเซล</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="railcars.html">รถดีเซลรางและรถโดยสาร</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="electric.html">รถไฟฟ้าและความเร็วสูง</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="urban.html">รถไฟฟ้าในกรุงเทพฯ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="timetable.html">ตารางเดินรถ</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ข้อมูลและภาพ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">ภาพส่วนใหญ่มาจาก <a class="underline hover:text-rail-700" href="https://commons.wikimedia.org/">Wikimedia Commons</a> ภายใต้สัญญาอนุญาตครีเอทีฟคอมมอนส์ ดูชื่อผู้ถ่ายทั้งหมดได้ที่ <a class="underline hover:text-rail-700" href="sources.html">แหล่งอ้างอิง</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/lightbox.js" defer></script>
+
+</body>
+</html>

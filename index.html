@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="th" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>รถไฟไทย วิกิ</title>
+<meta name="description" content="แหล่งเรียนรู้เรื่องรถไฟไทย ตั้งแต่รถจักรไอน้ำคันแรกจนถึงรถไฟความเร็วสูง">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Prompt:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="assets/js/loader.js"></script>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script src="assets/tailwind-config.js"></script>
+</head>
+<body id="top" class="bg-cream-50 font-sans text-[17px] leading-relaxed text-stone-800 antialiased dark:bg-stone-950 dark:text-stone-200">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-3 focus:py-2">ข้ามไปเนื้อหา</a>
+<header class="sticky top-0 z-40 border-b border-stone-200/80 bg-cream-50/90 backdrop-blur dark:border-stone-800 dark:bg-stone-950/90">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
+    <a href="index.html" class="flex items-center gap-2.5 font-display text-lg font-semibold text-stone-900 dark:text-stone-100"><svg viewBox="0 0 32 32" class="h-8 w-8 shrink-0" aria-hidden="true"><rect width="32" height="32" rx="8" class="fill-rail-700"/><path d="M10 7h12a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H10a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3Zm0 3v4h12v-4H10Zm1 7.5a1.5 1.5 0 1 0 0 .01Zm10 0a1.5 1.5 0 1 0 0 .01ZM11 23l-3 3m13-3 3 3" fill="none" stroke="#fdf8f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>รถไฟไทย <span class="text-rail-700 dark:text-rail-400">วิกิ</span></span></a>
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="เมนูหลัก">
+      <a href="history.html" class="nav-link">ประวัติ</a><div class="group relative">
+          <button class="nav-link inline-flex items-center gap-1">ขบวนรถ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute left-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ขบวนรถและการเดินทาง</a></div>
+          </div>
+        </div><a href="timetable.html" class="nav-link">ตารางเดินรถ</a><a href="trips.html" class="nav-link">เที่ยวรถไฟ</a><a href="lines.html" class="nav-link">เส้นทาง</a><a href="stations.html" class="nav-link">สถานี</a><div class="group relative">
+          <button class="nav-link inline-flex items-center gap-1">เรียนรู้ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute right-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="museums.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a></div>
+          </div>
+        </div>
+    </nav>
+    <details class="relative lg:hidden">
+      <summary class="flex cursor-pointer list-none items-center gap-2 rounded-lg border border-stone-300 px-3 py-1.5 text-sm dark:border-stone-700 [&::-webkit-details-marker]:hidden">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>เมนู
+      </summary>
+      <nav class="absolute right-0 top-full mt-2 max-h-[calc(100dvh-5rem)] w-72 max-w-[calc(100vw-2rem)] overflow-y-auto overscroll-contain rounded-xl border border-stone-200 bg-white p-2 shadow-xl dark:border-stone-700 dark:bg-stone-900" aria-label="เมนูมือถือ"><a href="index.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">หน้าแรก</a><a href="timetable.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ตารางเดินรถ</a><a href="trips.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">เที่ยวด้วยรถไฟ</a><a href="history.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ประวัติรถไฟไทย</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">ขบวนรถ</p><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ขบวนรถและการเดินทาง</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เส้นทางและสถานี</p><a href="lines.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">เส้นทางรถไฟ</a><a href="stations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">สถานีน่าสนใจ</a><a href="station-list.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ทำเนียบสถานี</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เรียนรู้</p><a href="museums.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a><a href="sources.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งอ้างอิง</a></nav>
+    </details>
+  </div>
+</header>
+<main id="main">
+<!-- Hero -->
+<section class="container-page grid items-center gap-10 py-12 md:grid-cols-2 md:py-16">
+  <div>
+    <p class="badge bg-rail-100 text-rail-800 dark:bg-rail-950 dark:text-rail-300">สื่อการเรียนรู้ · เปิดอ่านฟรี</p>
+    <h1 class="mt-4 font-display text-4xl font-semibold leading-tight text-stone-900 sm:text-5xl dark:text-stone-50">รู้จัก<span class="text-rail-700 dark:text-rail-400">รถไฟไทย</span><br>ตั้งแต่ไอน้ำถึงความเร็วสูง</h1>
+    <p class="lead mt-5">เรื่องราวกว่า 130 ปีของรถไฟไทย ตั้งแต่ทางรถไฟสายปากน้ำ รถจักรไอน้ำที่ยังวิ่งได้ในวันสำคัญ รถจักรดีเซลแต่ละรุ่น ไปจนถึงรถไฟฟ้าสายสีแดงและรถไฟความเร็วสูง พร้อมภาพประกอบและบอกว่าไปดูของจริงได้ที่ไหน</p>
+    <div class="mt-7 flex flex-wrap gap-3">
+      <a href="history.html" class="rounded-xl bg-rail-700 px-5 py-3 font-medium text-white shadow-sm hover:bg-rail-800">เริ่มจากประวัติ</a>
+      <a href="steam.html" class="rounded-xl border border-stone-300 bg-white px-5 py-3 font-medium text-stone-800 hover:border-rail-400 hover:text-rail-700 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200">ดูรถจักรไอน้ำ</a>
+    </div>
+  </div>
+  <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/SRT_Class_CX50_824_at_Bangkok_Railway_Station.jpg/960px-SRT_Class_CX50_824_at_Bangkok_Railway_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/SRT_Class_CX50_824_at_Bangkok_Railway_Station.jpg/1920px-SRT_Class_CX50_824_at_Bangkok_Railway_Station.jpg" alt="รถจักรไอน้ำแปซิฟิกหมายเลข 824 จอดที่สถานีกรุงเทพ (หัวลำโพง)" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">รถจักรไอน้ำแปซิฟิก หมายเลข 824 หนึ่งในรถจักรไอน้ำที่การรถไฟฯ ยังดูแลให้วิ่งได้</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Suikotei · <a href="https://commons.wikimedia.org/wiki/File:SRT_Class_CX50_824_at_Bangkok_Railway_Station.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+</section>
+
+<!-- Quick facts -->
+<section class="container-page">
+  <dl class="grid grid-cols-2 gap-3 sm:grid-cols-4">
+    <div class="rounded-2xl border border-stone-200 bg-white p-4 dark:border-stone-800 dark:bg-stone-900"><dt class="text-sm text-stone-500">เปิดเดินรถสายแรกของรัฐ</dt><dd class="mt-1 font-display text-2xl font-semibold text-stone-900 dark:text-stone-50">26 มี.ค. 2440</dd></div>
+    <div class="rounded-2xl border border-stone-200 bg-white p-4 dark:border-stone-800 dark:bg-stone-900"><dt class="text-sm text-stone-500">ขนาดราง</dt><dd class="mt-1 font-display text-2xl font-semibold text-stone-900 dark:text-stone-50">1 เมตร</dd></div>
+    <div class="rounded-2xl border border-stone-200 bg-white p-4 dark:border-stone-800 dark:bg-stone-900"><dt class="text-sm text-stone-500">ความยาวทาง (พ.ศ. 2563)</dt><dd class="mt-1 font-display text-2xl font-semibold text-stone-900 dark:text-stone-50">≈ 4,044 กม.</dd></div>
+    <div class="rounded-2xl border border-stone-200 bg-white p-4 dark:border-stone-800 dark:bg-stone-900"><dt class="text-sm text-stone-500">รถจักรไอน้ำที่ยังวิ่งได้</dt><dd class="mt-1 font-display text-2xl font-semibold text-stone-900 dark:text-stone-50">4 คัน</dd></div>
+  </dl>
+</section>
+
+<!-- Categories -->
+<section class="container-page mt-16">
+  <div class="flex flex-wrap items-end justify-between gap-2">
+    <h2 class="h-section">เลือกหัวข้อที่อยากรู้</h2>
+    <p class="text-sm text-stone-500">แต่ละหน้ามีสารบัญให้กดไปยังรุ่นที่สนใจได้ทันที</p>
+  </div>
+  <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <a href="history.html" class="card group">
+      <div class="relative">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%A5%E0%B8%B3%E0%B9%82%E0%B8%9E%E0%B8%87_%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%99%E0%B9%89%E0%B8%B3.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" data-full="https://upload.wikimedia.org/wikipedia/commons/0/0d/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%A5%E0%B8%B3%E0%B9%82%E0%B8%9E%E0%B8%87_%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%99%E0%B9%89%E0%B8%B3.jpg" data-credit="ไม่ทราบผู้ถ่าย · Public domain" alt="สถานีหัวลำโพงของทางรถไฟสายปากน้ำ ราว พ.ศ. 2453" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">ไม่ทราบผู้ถ่าย · Public domain</span>
+</div>
+      <div class="p-5"><h3 class="h-item group-hover:text-rail-700">ประวัติรถไฟไทย</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ไทม์ไลน์ตั้งแต่รถไฟจำลองของพระราชินีวิกตอเรียจนถึงสถานีกลางกรุงเทพอภิวัฒน์</p></div>
+    </a>
+    <a href="steam.html" class="card group">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/SRT_C56_15_713_at_Bangkok_Railway_Station_01.jpg/960px-SRT_C56_15_713_at_Bangkok_Railway_Station_01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/SRT_C56_15_713_at_Bangkok_Railway_Station_01.jpg/1920px-SRT_C56_15_713_at_Bangkok_Railway_Station_01.jpg" data-credit="Suikotei · CC BY-SA 4.0" alt="รถจักรไอน้ำ C56 หมายเลข 713 ที่สถานีกรุงเทพ" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><h3 class="h-item group-hover:text-rail-700">รถจักรไอน้ำ</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">แปซิฟิก มิกาโด C56 การ์แรตต์ รุ่นไหนยังวิ่งได้ และไปดูได้ที่ไหนบ้าง</p></div>
+    </a>
+    <a href="diesel.html" class="card group">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/SRT_GE_CM22-7i_No._4523.jpg/960px-SRT_GE_CM22-7i_No._4523.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/SRT_GE_CM22-7i_No._4523.jpg/1920px-SRT_GE_CM22-7i_No._4523.jpg" data-credit="Geonuch · CC BY-SA 4.0" alt="รถจักรดีเซลไฟฟ้า GE CM22-7i หมายเลข 4523" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Geonuch · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><h3 class="h-item group-hover:text-rail-700">รถจักรดีเซล</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">จาก Davenport ยุคแรกถึง GE, Alsthom, Hitachi และรถจักรจีนรุ่นใหม่</p></div>
+    </a>
+    <a href="railcars.html" class="card group">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/KIHA183_at_Hua_Lamphong.jpg/960px-KIHA183_at_Hua_Lamphong.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/KIHA183_at_Hua_Lamphong.jpg/1920px-KIHA183_at_Hua_Lamphong.jpg" data-credit="OraMAAG · CC BY 4.0" alt="รถดีเซลราง KIHA 183 ที่สถานีหัวลำโพง" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">OraMAAG · CC BY 4.0</span>
+</div>
+      <div class="p-5"><h3 class="h-item group-hover:text-rail-700">รถดีเซลรางและรถโดยสาร</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สปรินเตอร์ แดวู รถนอนจีน และ KIHA 183 จากฮอกไกโด</p></div>
+    </a>
+    <a href="electric.html" class="card group">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/SRT_Dark_Red_Line_at_Bang_Sue_Grand_Station_20211114-1.jpg/960px-SRT_Dark_Red_Line_at_Bang_Sue_Grand_Station_20211114-1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/SRT_Dark_Red_Line_at_Bang_Sue_Grand_Station_20211114-1.jpg/1920px-SRT_Dark_Red_Line_at_Bang_Sue_Grand_Station_20211114-1.jpg" data-credit="Suikotei · CC BY-SA 4.0" alt="รถไฟฟ้าชานเมืองสายสีแดงที่สถานีกลางบางซื่อ" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suikotei · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><h3 class="h-item group-hover:text-rail-700">รถไฟฟ้าและความเร็วสูง</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">แอร์พอร์ต เรล ลิงก์ สายสีแดง และรถไฟความเร็วสูงไทย–จีน</p></div>
+    </a>
+    <a href="lines.html" class="card group">
+      <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Wang_Pho_-_Mae_Klong.jpg/960px-Wang_Pho_-_Mae_Klong.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Wang_Pho_-_Mae_Klong.jpg/1920px-Wang_Pho_-_Mae_Klong.jpg" data-credit="PA · CC BY-SA 4.0" alt="ทางรถไฟเลียบหน้าผาที่วังโพ (ถ้ำกระแซ) จังหวัดกาญจนบุรี" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">PA · CC BY-SA 4.0</span>
+</div>
+      <div class="p-5"><h3 class="h-item group-hover:text-rail-700">เส้นทางรถไฟ</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สายเหนือ อีสาน ใต้ ตะวันออก แม่กลอง และสายน้ำตก</p></div>
+    </a>
+  </div>
+  <a href="trips.html" class="mt-5 flex flex-col gap-3 rounded-2xl border border-rail-200 bg-gradient-to-r from-rail-700 to-rail-900 p-6 text-white hover:shadow-lg sm:flex-row sm:items-center sm:justify-between dark:border-rail-900">
+    <div><p class="font-display text-xl font-semibold">เที่ยวด้วยรถไฟ: ทริป 2 วัน 1 คืน และ 3 วัน 2 คืน →</p><p class="mt-1 text-[15px] text-rail-100">11 เส้นทางแนะนำ พร้อมแผนที่ ขบวนรถ ค่าโดยสารแยกชั้น และงบประมาณต่อคน</p></div>
+    <span class="shrink-0 rounded-full bg-white/15 px-4 py-2 text-sm font-medium">ดูทริปทั้งหมด</span>
+  </a>
+  <div class="mt-5 grid gap-5 sm:grid-cols-3">
+    <a href="timetable.html" class="rounded-2xl border border-rail-200 bg-rail-50 p-5 hover:border-rail-400 dark:border-rail-900 dark:bg-rail-950/40"><p class="h-item">ตารางเดินรถ →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">รฟท. กว่า 160 ขบวน, BTS, MRT, สายสีแดง, แอร์พอร์ตลิงก์ ค้นหาตามสถานีได้</p></a>
+    <a href="urban.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">รถไฟฟ้าในกรุงเทพฯ →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ประวัติ BTS MRT โมโนเรล และสายที่กำลังสร้าง</p></a>
+    <a href="services.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">ขบวนรถและการเดินทาง →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ขบวนที่มีชื่อ ชั้นที่นอน วิธีจองตั๋ว ขบวนนำเที่ยว</p></a>
+    <a href="stations.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">สถานีน่าสนใจ →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">กว่า 30 สถานีทั่วประเทศ ตั้งแต่หัวลำโพงถึงสุไหงโก-ลก</p></a>
+    <a href="museums.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">แหล่งเรียนรู้ →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">พิพิธภัณฑ์และจุดตั้งแสดงรถเก่า</p></a>
+    <a href="glossary.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">อภิธานศัพท์ →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">4-6-2 คืออะไร ทำไมรางไทยกว้าง 1 เมตร</p></a>
+  </div>
+</section>
+
+<!-- Deep dives -->
+<section class="container-page mt-16">
+  <h2 class="h-section">เจาะลึก</h2>
+  <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    <a href="station-list.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">ทำเนียบสถานี →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ค้นหา 637 สถานี พร้อมรหัส ระยะทาง ที่ตั้ง และขบวนที่จอด</p></a>
+    <a href="line-north.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">ผังเส้นทางแต่ละสาย →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ผังสถานีทุกแห่ง ลำดับการก่อสร้าง อุโมงค์ สะพาน</p></a>
+    <a href="class-pacific.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">หน้ารุ่นรถ 18 รุ่น →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สเปก รายชื่อทุกหมายเลข และแกลเลอรีภาพ</p></a>
+    <a href="projects.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">โครงการและอนาคต →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ความเร็วสูง ทางคู่ ทางสายใหม่ สถานะล่าสุด</p></a>
+    <a href="operations.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">การเดินรถและสินค้า →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">หลีกขบวน ห่วงตราทางสะดวก ตู้คอนเทนเนอร์</p></a>
+    <a href="accidents.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">ความปลอดภัย →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">บทเรียนจากอุบัติเหตุ และวิธีข้ามทางรถไฟ</p></a>
+    <a href="quiz.html" class="rounded-2xl border border-rail-200 bg-rail-50 p-5 hover:border-rail-400 dark:border-rail-900 dark:bg-rail-950/40"><p class="h-item">แบบทดสอบ 20 ข้อ →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ทบทวนความรู้ พร้อมเฉลย</p></a>
+    <a href="glossary.html" class="rounded-2xl border border-stone-200 bg-white p-5 hover:border-rail-300 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">อภิธานศัพท์ →</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">คำศัพท์รถไฟที่ควรรู้</p></a>
+  </div>
+</section>
+
+<!-- Did you know + mini timeline -->
+<section class="container-page mt-16 grid gap-8 lg:grid-cols-5">
+  <div class="lg:col-span-2">
+    <h2 class="h-section">รู้หรือไม่?</h2>
+    <ul class="mt-5 space-y-4">
+      <li class="callout">ทางรถไฟสายแรกของสยามคือ <b>สายปากน้ำ</b> (กรุงเทพ–สมุทรปราการ) ของเอกชน เปิดเมื่อ 11 เมษายน พ.ศ. 2436 ก่อนรถไฟหลวงสายแรกถึง 4 ปี</li>
+      <li class="callout">เดิมทางสายเหนือและอีสานใช้ <b>รางกว้าง 1.435 เมตร</b> ภายหลังจึงเปลี่ยนเป็นรางกว้าง 1 เมตรทั้งประเทศ ให้ต่อกับประเทศเพื่อนบ้านได้</li>
+      <li class="callout">ไทยเป็นประเทศแรก ๆ ในเอเชียที่นำ <b>รถจักรดีเซล</b> มาใช้ ตั้งแต่ราว พ.ศ. 2471</li>
+      <li class="callout">ทุกปีจะมี <b>ขบวนรถจักรไอน้ำ</b> วิ่งในวันสำคัญ เช่น 26 มีนาคม (วันสถาปนาการรถไฟ) และ 23 ตุลาคม (วันปิยมหาราช) <a href="steam.html#runs" class="underline">ดูตาราง</a></li>
+    </ul>
+  </div>
+  <div class="lg:col-span-3">
+    <h2 class="h-section">เส้นทางเวลาโดยย่อ</h2>
+    <ol class="relative mt-6 space-y-6 border-l-2 border-rail-200 pl-6 dark:border-rail-900">
+      <li class="relative"><span class="absolute -left-[33px] top-1.5 h-4 w-4 rounded-full border-4 border-cream-50 bg-rail-600 dark:border-stone-950"></span><p class="font-display font-semibold text-rail-700 dark:text-rail-400">พ.ศ. 2436</p><p>ทางรถไฟสายปากน้ำ ทางรถไฟสายแรกของสยาม เปิดเดินรถ</p></li>
+      <li class="relative"><span class="absolute -left-[33px] top-1.5 h-4 w-4 rounded-full border-4 border-cream-50 bg-rail-600 dark:border-stone-950"></span><p class="font-display font-semibold text-rail-700 dark:text-rail-400">พ.ศ. 2440</p><p>เปิดเดินรถหลวงกรุงเทพ–อยุธยา ถือเป็นวันสถาปนากิจการรถไฟ</p></li>
+      <li class="relative"><span class="absolute -left-[33px] top-1.5 h-4 w-4 rounded-full border-4 border-cream-50 bg-rail-600 dark:border-stone-950"></span><p class="font-display font-semibold text-rail-700 dark:text-rail-400">พ.ศ. 2465</p><p>ทางรถไฟสายเหนือถึงเชียงใหม่ หลังเจาะอุโมงค์ขุนตานสำเร็จ</p></li>
+      <li class="relative"><span class="absolute -left-[33px] top-1.5 h-4 w-4 rounded-full border-4 border-cream-50 bg-rail-600 dark:border-stone-950"></span><p class="font-display font-semibold text-rail-700 dark:text-rail-400">พ.ศ. 2494</p><p>กรมรถไฟเปลี่ยนเป็น การรถไฟแห่งประเทศไทย (รฟท.)</p></li>
+      <li class="relative"><span class="absolute -left-[33px] top-1.5 h-4 w-4 rounded-full border-4 border-cream-50 bg-rail-600 dark:border-stone-950"></span><p class="font-display font-semibold text-rail-700 dark:text-rail-400">พ.ศ. 2566</p><p>รถไฟทางไกลย้ายไปเริ่มต้นที่สถานีกลางกรุงเทพอภิวัฒน์</p></li>
+    </ol>
+    <a href="history.html" class="mt-6 inline-block font-medium text-rail-700 hover:underline dark:text-rail-300">อ่านไทม์ไลน์ฉบับเต็ม →</a>
+  </div>
+</section>
+
+</main>
+<footer class="mt-20 border-t border-stone-200 bg-cream-100/60 dark:border-stone-800 dark:bg-stone-900/50">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:grid-cols-3">
+    <div>
+      <p class="font-display text-base font-semibold text-stone-900 dark:text-stone-100">รถไฟไทย วิกิ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">สื่อการเรียนรู้เรื่องรถไฟไทย จัดทำเพื่อการศึกษา ไม่แสวงหากำไร และไม่ได้เป็นเว็บไซต์ทางการของการรถไฟแห่งประเทศไทย</p>
+      <p class="mt-3 flex gap-2 rounded-xl border border-amber-300 bg-amber-50 px-3 py-2 text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200"><svg viewBox="0 0 24 24" class="mt-0.5 h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg><span><b>คำเตือน:</b> เนื้อหาทั้งหมดถูกเรียบเรียงโดย AI กรุณาตรวจสอบข้อมูลให้ถูกต้องทุกครั้ง</span></p>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ขบวนรถ</p>
+      <ul class="mt-2 space-y-1 text-stone-600 dark:text-stone-400">
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="steam.html">รถจักรไอน้ำ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="diesel.html">รถจักรดีเซล</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="railcars.html">รถดีเซลรางและรถโดยสาร</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="electric.html">รถไฟฟ้าและความเร็วสูง</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="urban.html">รถไฟฟ้าในกรุงเทพฯ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="timetable.html">ตารางเดินรถ</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ข้อมูลและภาพ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">ภาพส่วนใหญ่มาจาก <a class="underline hover:text-rail-700" href="https://commons.wikimedia.org/">Wikimedia Commons</a> ภายใต้สัญญาอนุญาตครีเอทีฟคอมมอนส์ ดูชื่อผู้ถ่ายทั้งหมดได้ที่ <a class="underline hover:text-rail-700" href="sources.html">แหล่งอ้างอิง</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/lightbox.js" defer></script>
+
+</body>
+</html>

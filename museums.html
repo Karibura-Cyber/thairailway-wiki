@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="th" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>แหล่งเรียนรู้ · รถไฟไทย วิกิ</title>
+<meta name="description" content="พิพิธภัณฑ์และจุดตั้งแสดงรถไฟเก่าทั่วประเทศ">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Prompt:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="assets/js/loader.js"></script>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script src="assets/tailwind-config.js"></script>
+</head>
+<body id="top" class="bg-cream-50 font-sans text-[17px] leading-relaxed text-stone-800 antialiased dark:bg-stone-950 dark:text-stone-200">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-3 focus:py-2">ข้ามไปเนื้อหา</a>
+<header class="sticky top-0 z-40 border-b border-stone-200/80 bg-cream-50/90 backdrop-blur dark:border-stone-800 dark:bg-stone-950/90">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
+    <a href="index.html" class="flex items-center gap-2.5 font-display text-lg font-semibold text-stone-900 dark:text-stone-100"><svg viewBox="0 0 32 32" class="h-8 w-8 shrink-0" aria-hidden="true"><rect width="32" height="32" rx="8" class="fill-rail-700"/><path d="M10 7h12a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H10a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3Zm0 3v4h12v-4H10Zm1 7.5a1.5 1.5 0 1 0 0 .01Zm10 0a1.5 1.5 0 1 0 0 .01ZM11 23l-3 3m13-3 3 3" fill="none" stroke="#fdf8f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>รถไฟไทย <span class="text-rail-700 dark:text-rail-400">วิกิ</span></span></a>
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="เมนูหลัก">
+      <a href="history.html" class="nav-link">ประวัติ</a><div class="group relative">
+          <button class="nav-link inline-flex items-center gap-1">ขบวนรถ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute left-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ขบวนรถและการเดินทาง</a></div>
+          </div>
+        </div><a href="timetable.html" class="nav-link">ตารางเดินรถ</a><a href="trips.html" class="nav-link">เที่ยวรถไฟ</a><a href="lines.html" class="nav-link">เส้นทาง</a><a href="stations.html" class="nav-link">สถานี</a><div class="group relative">
+          <button class="nav-link nav-link-active inline-flex items-center gap-1">เรียนรู้ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute right-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="museums.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800 font-semibold text-rail-700 dark:text-rail-300">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a></div>
+          </div>
+        </div>
+    </nav>
+    <details class="relative lg:hidden">
+      <summary class="flex cursor-pointer list-none items-center gap-2 rounded-lg border border-stone-300 px-3 py-1.5 text-sm dark:border-stone-700 [&::-webkit-details-marker]:hidden">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>เมนู
+      </summary>
+      <nav class="absolute right-0 top-full mt-2 max-h-[calc(100dvh-5rem)] w-72 max-w-[calc(100vw-2rem)] overflow-y-auto overscroll-contain rounded-xl border border-stone-200 bg-white p-2 shadow-xl dark:border-stone-700 dark:bg-stone-900" aria-label="เมนูมือถือ"><a href="index.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">หน้าแรก</a><a href="timetable.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ตารางเดินรถ</a><a href="trips.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">เที่ยวด้วยรถไฟ</a><a href="history.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ประวัติรถไฟไทย</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">ขบวนรถ</p><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ขบวนรถและการเดินทาง</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เส้นทางและสถานี</p><a href="lines.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">เส้นทางรถไฟ</a><a href="stations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">สถานีน่าสนใจ</a><a href="station-list.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ทำเนียบสถานี</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เรียนรู้</p><a href="museums.html" class="block rounded-lg px-3 py-2 bg-rail-50 font-semibold text-rail-700 dark:bg-rail-950 dark:text-rail-300">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a><a href="sources.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งอ้างอิง</a></nav>
+    </details>
+  </div>
+</header>
+<main id="main">
+<section class="container-page pt-10">
+  <nav class="crumb"><a href="index.html" class="hover:underline">หน้าแรก</a> / แหล่งเรียนรู้</nav>
+  <h1 class="h-page mt-3">แหล่งเรียนรู้</h1>
+  <p class="lead mt-3 max-w-3xl">พิพิธภัณฑ์และจุดตั้งแสดงที่ได้เห็นของจริงเกี่ยวกับรถไฟไทย จัดกลุ่มตามภูมิภาค เวลาเปิด–ปิดและค่าเข้าชมเปลี่ยนได้ ควรตรวจสอบกับสถานที่ก่อนเดินทาง</p>
+  <div class="mt-6 flex flex-wrap gap-2">
+    <a href="#bkk" class="chip">กรุงเทพฯ และปริมณฑล</a>
+    <a href="#west" class="chip">กาญจนบุรีและภาคตะวันตก</a>
+    <a href="#north" class="chip">ภาคเหนือ</a>
+    <a href="#elsewhere" class="chip">ภาคอื่น ๆ</a>
+  </div>
+</section>
+
+<div class="container-page mt-12 space-y-14">
+
+  <section id="bkk" class="scroll-mt-24">
+    <h2 class="h-section">กรุงเทพฯ และปริมณฑล</h2>
+    <p class="mt-3 max-w-3xl text-stone-600 dark:text-stone-400">หัวลำโพงเป็นจุดที่ดูรถจักรไอน้ำรุ่นเก่าได้มากที่สุดในที่เดียว เดินชมได้ฟรีบนชานชาลา</p>
+    <div class="mt-5 grid gap-5 sm:grid-cols-3">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Preserved_%22E_Class%22_No.165_at_Hua_Lamphong_Station._Sep_2023.jpg/960px-Preserved_%22E_Class%22_No.165_at_Hua_Lamphong_Station._Sep_2023.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Preserved_%22E_Class%22_No.165_at_Hua_Lamphong_Station._Sep_2023.jpg/1920px-Preserved_%22E_Class%22_No.165_at_Hua_Lamphong_Station._Sep_2023.jpg" alt="รถจักรไอน้ำเท็นวีลเลอร์หมายเลข 165 ที่หัวลำโพง" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">เท็นวีลเลอร์ 165 (สกอตแลนด์)</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Athaiguy1087 · <a href="https://commons.wikimedia.org/wiki/File:Preserved_%22E_Class%22_No.165_at_Hua_Lamphong_Station._Sep_2023.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/SRT_260_%28278_A_W%29.jpg/960px-SRT_260_%28278_A_W%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/SRT_260_%28278_A_W%29.jpg/1920px-SRT_260_%28278_A_W%29.jpg" alt="รถจักรไอน้ำแปซิฟิก Hanomag หมายเลข 278 ที่หัวลำโพง" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">แปซิฟิก Hanomag 278 (เยอรมนี)</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Joachim Lutz · <a href="https://commons.wikimedia.org/wiki/File:SRT_260_(278_A_W).jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/SRT_51_%28SRT_54_A_W%29.jpg/960px-SRT_51_%28SRT_54_A_W%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/SRT_51_%28SRT_54_A_W%29.jpg/1920px-SRT_51_%28SRT_54_A_W%29.jpg" alt="รถจักรไอน้ำหมายเลข 54 ที่หัวลำโพง" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">รถจักรถังน้ำ 54 (เยอรมนี)</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Joachim Lutz · <a href="https://commons.wikimedia.org/wiki/File:SRT_51_(SRT_54_A_W).jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+    </div>
+    <div class="mt-6 grid gap-5 md:grid-cols-2">
+      <div class="card">
+        <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Hua_Lamphong_railway_station_20240915.jpg/960px-Hua_Lamphong_railway_station_20240915.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Hua_Lamphong_railway_station_20240915.jpg/1920px-Hua_Lamphong_railway_station_20240915.jpg" data-credit="Suicasmo · CC BY-SA 4.0" alt="สถานีกรุงเทพ (หัวลำโพง)" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Suicasmo · CC BY-SA 4.0</span>
+</div>
+        <div class="p-5"><h3 class="h-item">สถานีกรุงเทพ (หัวลำโพง)</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ตัวอาคารเองคือประวัติศาสตร์ และยังมีรถจักรไอน้ำตั้งแสดงหลายคัน เช่น C56 หมายเลข 714 แปซิฟิก Hanomag 278 รถจักรสวิส 336 และรถจักรเฮนเชลปี 1909 หมายเลข 54 <a href="stations.html#hualamphong" class="text-rail-700 underline dark:text-rail-300">อ่านเรื่องสถานี</a></p></div>
+      </div>
+      <div class="card">
+        <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Siriraj_-_Old_Thonburi_Railway_Station.jpg/960px-Siriraj_-_Old_Thonburi_Railway_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Siriraj_-_Old_Thonburi_Railway_Station.jpg/1920px-Siriraj_-_Old_Thonburi_Railway_Station.jpg" data-credit="Supanut Arunoprayote · CC BY-SA 4.0" alt="อาคารสถานีธนบุรีเดิม ปัจจุบันเป็นพิพิธภัณฑ์" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Supanut Arunoprayote · CC BY-SA 4.0</span>
+</div>
+        <div id="siriraj" class="scroll-mt-24 p-5"><h3 class="h-item">พิพิธภัณฑ์ศิริราชพิมุขสถาน</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">อยู่ในอาคารสถานีธนบุรีเดิม ในโรงพยาบาลศิริราช นอกจากเรื่องราวทางการแพทย์และประวัติศาสตร์ฝั่งธนบุรี ยังได้ชมตัวอาคารสถานีอิฐแบบเยอรมันที่บูรณะอย่างดี</p></div>
+      </div>
+      <div class="card">
+        <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Train_museum%2C_Chatuchak_Park.jpg/960px-Train_museum%2C_Chatuchak_Park.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://upload.wikimedia.org/wikipedia/commons/6/66/Train_museum%2C_Chatuchak_Park.jpg" data-credit="Phoebus 28 · CC BY-SA 4.0" alt="อาคารพิพิธภัณฑ์รถไฟในสวนจตุจักร" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Phoebus 28 · CC BY-SA 4.0</span>
+</div>
+        <div class="p-5"><h3 class="h-item">หอเกียรติภูมิรถไฟ สวนจตุจักร</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">พิพิธภัณฑ์รถไฟของเอกชนที่เคยเปิดในสวนจตุจักร เก็บรถจักรขนาดเล็ก รถราง และของสะสมเกี่ยวกับรถไฟไว้มาก <b>ปัจจุบันปิดให้บริการแล้ว</b> แต่ยังเป็นส่วนหนึ่งของความทรงจำของคนรักรถไฟ</p></div>
+      </div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900">
+        <h3 class="h-item">จุดอื่น ๆ ใกล้กรุงเทพฯ</h3>
+        <ul class="mt-3 space-y-2 text-[15px] text-stone-600 dark:text-stone-400">
+          <li><b>พิพิธภัณฑสถานแห่งชาติ พระนคร</b> จัดแสดงรถไฟจำลองที่พระราชินีวิกตอเรียส่งมาถวาย (พ.ศ. 2399) และจอบกับรถเข็นดินจากพิธีเริ่มสร้างทางรถไฟ (พ.ศ. 2435)</li>
+          <li><b>หอภาพยนตร์ ศาลายา</b> นครปฐม มีรถจักร C56 หมายเลข 738</li>
+          <li><b>พิพิธภัณฑ์เจษฎาเทคนิค</b> นครชัยศรี พิพิธภัณฑ์ยานพาหนะของเอกชน มีรถจักรแปซิฟิก Hanomag หมายเลข 263</li>
+          <li><b>อุทยานการเรียนรู้และหอชมเมืองสมุทรปราการ</b> มีรถจักรเล็กของทางรถไฟท่าจีน</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="west" class="scroll-mt-24">
+    <h2 class="h-section">กาญจนบุรีและภาคตะวันตก</h2>
+    <p class="mt-3 max-w-3xl text-stone-600 dark:text-stone-400">กาญจนบุรีมีแหล่งเรียนรู้เรื่องทางรถไฟสายมรณะมากที่สุด เหมาะกับการนั่งรถไฟสายน้ำตกไปเที่ยวแบบวันเดียวหรือค้างคืน</p>
+    <div class="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <div class="card">
+        <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Kanchanaburi-08.jpg/960px-Kanchanaburi-08.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Kanchanaburi-08.jpg/1920px-Kanchanaburi-08.jpg" data-credit="Wayne77 · CC BY-SA 4.0" alt="รถจักรการ์แรตต์ 457 หน้าสถานีกาญจนบุรี" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Wayne77 · CC BY-SA 4.0</span>
+</div>
+        <div class="p-5"><h3 class="h-item">สถานีกาญจนบุรี</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">รถจักรการ์แรตต์ 457 ตั้งแสดงหน้าสถานี ดูได้ฟรี <a href="steam.html#garratt" class="text-rail-700 underline dark:text-rail-300">อ่านเพิ่ม</a></p></div>
+      </div>
+      <div class="card">
+        <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Bridge_on_the_River_Kwai_-_museum_train_1.jpg/960px-Bridge_on_the_River_Kwai_-_museum_train_1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Bridge_on_the_River_Kwai_-_museum_train_1.jpg/1920px-Bridge_on_the_River_Kwai_-_museum_train_1.jpg" data-credit="PumpkinSky · CC BY-SA 4.0" alt="รถจักรไอน้ำที่พิพิธภัณฑ์สงครามโลกครั้งที่ 2 กาญจนบุรี" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">PumpkinSky · CC BY-SA 4.0</span>
+</div>
+        <div class="p-5"><h3 class="h-item">พิพิธภัณฑ์สงครามโลกครั้งที่ 2</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">พิพิธภัณฑ์เอกชนข้างสะพานข้ามแม่น้ำแคว มีรถจักรเท็นวีลเลอร์ (ทาสีเป็น 175) และของใช้ในยุคสงคราม</p></div>
+      </div>
+      <div class="card">
+        <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Train_crossing_the_Kwai_River_Bridge.jpg/960px-Train_crossing_the_Kwai_River_Bridge.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Train_crossing_the_Kwai_River_Bridge.jpg/1920px-Train_crossing_the_Kwai_River_Bridge.jpg" data-credit="Kanpins · CC BY-SA 4.0" alt="สะพานข้ามแม่น้ำแคว" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Kanpins · CC BY-SA 4.0</span>
+</div>
+        <div class="p-5"><h3 class="h-item">สะพานข้ามแม่น้ำแคว</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">เดินข้ามสะพานได้ ที่สถานีสะพานแควใหญ่มี C56 หมายเลข 719 ตั้งแสดง <a href="stations.html#kwai" class="text-rail-700 underline dark:text-rail-300">อ่านเพิ่ม</a></p></div>
+      </div>
+    </div>
+    <div class="mt-5 grid gap-5 md:grid-cols-2">
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><h3 class="h-item">ศูนย์ข้อมูลทางรถไฟไทย–พม่า</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">พิพิธภัณฑ์ในตัวเมืองกาญจนบุรี ข้างสุสานทหารสัมพันธมิตร เล่าเรื่องการสร้างทางรถไฟสายมรณะอย่างละเอียด ด้วยแบบจำลอง แผนที่ และเอกสาร</p></div>
+      <div class="card"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Hellfire_Pass_-_June_2004.jpg/960px-Hellfire_Pass_-_June_2004.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://upload.wikimedia.org/wikipedia/commons/d/db/Hellfire_Pass_-_June_2004.jpg" data-credit="Diliff · CC BY-SA 2.5" alt="แนวทางรถไฟที่ช่องเขาขาด" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Diliff · CC BY-SA 2.5</span>
+</div><div class="p-5"><h3 class="h-item">ช่องเขาขาด (Hellfire Pass)</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">อำเภอไทรโยค แนวทางรถไฟที่เชลยศึกต้องขุดเจาะภูเขาด้วยมือ มีพิพิธภัณฑ์และเส้นทางเดินเลียบแนวทางรถไฟเดิม ใกล้กันที่น้ำตกไทรโยคน้อยมีรถจักร C56 หมายเลข 702 ตั้งแสดง</p></div></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><h3 class="h-item">พิพิธภัณฑ์ทหารช่าง ราชบุรี</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">มีรถจักร 4-6-0 หมายเลข 756 สร้างโดย Beyer Peacock ปี ค.ศ. 1922 เดิมเป็นรถจักรของทางรถไฟในชวา (อินโดนีเซีย) ก่อนมาอยู่ในไทย</p></div>
+    </div>
+  </section>
+
+  <section id="north" class="scroll-mt-24">
+    <h2 class="h-section">ภาคเหนือ</h2>
+    <div class="mt-6 grid gap-5 md:grid-cols-2">
+      <div class="card">
+        <div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/KhunTan_Tunnel_05.jpg/960px-KhunTan_Tunnel_05.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/KhunTan_Tunnel_05.jpg/1920px-KhunTan_Tunnel_05.jpg" data-credit="Khunkay · CC BY-SA 3.0" alt="อุโมงค์ขุนตาน" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Khunkay · CC BY-SA 3.0</span>
+</div>
+        <div class="p-5"><h3 class="h-item">อุโมงค์ขุนตาน (ลำปาง–ลำพูน)</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ลงที่สถานีขุนตานแล้วเดินไปดูปากอุโมงค์ และเดินป่าในอุทยานแห่งชาติดอยขุนตาน</p></div>
+      </div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900">
+        <h3 class="h-item">ลำปาง เชียงใหม่ และอุตรดิตถ์</h3>
+        <ul class="mt-3 space-y-2 text-[15px] text-stone-600 dark:text-stone-400">
+          <li><b>สวนสาธารณะสะพานดำ ลำปาง</b> รถจักรมิกาโด 943 (ย้ายมาจากกรุงเทพฯ เมื่อ พ.ศ. 2565) ใกล้สะพานรถไฟเหล็กเก่า</li>
+          <li><b>สถานีนครลำปาง</b> รถจักร C56 หมายเลข 728 และรถจักรดีเซล Davenport</li>
+          <li><b>สถานีเชียงใหม่</b> รถจักรสวิส 2-8-0 หมายเลข 340</li>
+          <li><b>สถานีศิลาอาสน์ อุตรดิตถ์</b> รถจักรแปซิฟิก Hanomag หมายเลข 274</li>
+          <li><b>โรงงานน้ำตาลวังกะพี้ อุตรดิตถ์</b> รถจักรเล็กรวมถึงคันที่เคยวิ่งบนทางรถไฟสายปากน้ำ</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="elsewhere" class="scroll-mt-24">
+    <h2 class="h-section">ภาคอื่น ๆ</h2>
+    <div class="mt-6 grid gap-5 md:grid-cols-3">
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><h3 class="h-item">ภาคใต้</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">อุทยานประวัติศาสตร์สงครามโลกครั้งที่ 2 อำเภอละอุ่น ระนอง (มิกาโด 962) · สถานีชุมพร หาดใหญ่ และสวนสาธารณะทุ่งสง (แปซิฟิก Baldwin และ Hanomag) · สถานีหัวหิน (มิกาโด 305 ของ Baldwin)</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><h3 class="h-item">ภาคอีสาน</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">สถานีนครราชสีมา (รถจักร Hanomag 261) และสถานีอุบลราชธานี (เท็นวีลเลอร์ 180)</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><h3 class="h-item">ภาคตะวันออก</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">โรงเลื่อยศรีมหาราชาและสวนสาธารณะในศรีราชา (รถจักรรางแคบหลายคัน) · สถานีฉะเชิงเทรา · วงเวียนกลับรถจักรที่กบินทร์บุรี</p></div>
+    </div>
+    <p class="mt-6 text-[15px]"><a href="steam.html#registry" class="font-medium text-rail-700 hover:underline dark:text-rail-300">ดูรายชื่อรถจักรไอน้ำทั้ง 76 คันพร้อมที่ตั้ง →</a></p>
+  </section>
+</div>
+
+</main>
+<footer class="mt-20 border-t border-stone-200 bg-cream-100/60 dark:border-stone-800 dark:bg-stone-900/50">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:grid-cols-3">
+    <div>
+      <p class="font-display text-base font-semibold text-stone-900 dark:text-stone-100">รถไฟไทย วิกิ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">สื่อการเรียนรู้เรื่องรถไฟไทย จัดทำเพื่อการศึกษา ไม่แสวงหากำไร และไม่ได้เป็นเว็บไซต์ทางการของการรถไฟแห่งประเทศไทย</p>
+      <p class="mt-3 flex gap-2 rounded-xl border border-amber-300 bg-amber-50 px-3 py-2 text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200"><svg viewBox="0 0 24 24" class="mt-0.5 h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg><span><b>คำเตือน:</b> เนื้อหาทั้งหมดถูกเรียบเรียงโดย AI กรุณาตรวจสอบข้อมูลให้ถูกต้องทุกครั้ง</span></p>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ขบวนรถ</p>
+      <ul class="mt-2 space-y-1 text-stone-600 dark:text-stone-400">
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="steam.html">รถจักรไอน้ำ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="diesel.html">รถจักรดีเซล</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="railcars.html">รถดีเซลรางและรถโดยสาร</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="electric.html">รถไฟฟ้าและความเร็วสูง</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="urban.html">รถไฟฟ้าในกรุงเทพฯ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="timetable.html">ตารางเดินรถ</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ข้อมูลและภาพ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">ภาพส่วนใหญ่มาจาก <a class="underline hover:text-rail-700" href="https://commons.wikimedia.org/">Wikimedia Commons</a> ภายใต้สัญญาอนุญาตครีเอทีฟคอมมอนส์ ดูชื่อผู้ถ่ายทั้งหมดได้ที่ <a class="underline hover:text-rail-700" href="sources.html">แหล่งอ้างอิง</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/lightbox.js" defer></script>
+
+</body>
+</html>

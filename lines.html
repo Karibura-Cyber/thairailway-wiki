@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="th" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>เส้นทางรถไฟ · รถไฟไทย วิกิ</title>
+<meta name="description" content="เส้นทางรถไฟสายหลักของไทย ระยะทาง และจุดเด่น">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Prompt:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="assets/js/loader.js"></script>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script src="assets/tailwind-config.js"></script>
+</head>
+<body id="top" class="bg-cream-50 font-sans text-[17px] leading-relaxed text-stone-800 antialiased dark:bg-stone-950 dark:text-stone-200">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-3 focus:py-2">ข้ามไปเนื้อหา</a>
+<header class="sticky top-0 z-40 border-b border-stone-200/80 bg-cream-50/90 backdrop-blur dark:border-stone-800 dark:bg-stone-950/90">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
+    <a href="index.html" class="flex items-center gap-2.5 font-display text-lg font-semibold text-stone-900 dark:text-stone-100"><svg viewBox="0 0 32 32" class="h-8 w-8 shrink-0" aria-hidden="true"><rect width="32" height="32" rx="8" class="fill-rail-700"/><path d="M10 7h12a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H10a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3Zm0 3v4h12v-4H10Zm1 7.5a1.5 1.5 0 1 0 0 .01Zm10 0a1.5 1.5 0 1 0 0 .01ZM11 23l-3 3m13-3 3 3" fill="none" stroke="#fdf8f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>รถไฟไทย <span class="text-rail-700 dark:text-rail-400">วิกิ</span></span></a>
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="เมนูหลัก">
+      <a href="history.html" class="nav-link">ประวัติ</a><div class="group relative">
+          <button class="nav-link inline-flex items-center gap-1">ขบวนรถ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute left-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ขบวนรถและการเดินทาง</a></div>
+          </div>
+        </div><a href="timetable.html" class="nav-link">ตารางเดินรถ</a><a href="trips.html" class="nav-link">เที่ยวรถไฟ</a><a href="lines.html" class="nav-link nav-link-active">เส้นทาง</a><a href="stations.html" class="nav-link">สถานี</a><div class="group relative">
+          <button class="nav-link inline-flex items-center gap-1">เรียนรู้ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute right-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="museums.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a></div>
+          </div>
+        </div>
+    </nav>
+    <details class="relative lg:hidden">
+      <summary class="flex cursor-pointer list-none items-center gap-2 rounded-lg border border-stone-300 px-3 py-1.5 text-sm dark:border-stone-700 [&::-webkit-details-marker]:hidden">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>เมนู
+      </summary>
+      <nav class="absolute right-0 top-full mt-2 max-h-[calc(100dvh-5rem)] w-72 max-w-[calc(100vw-2rem)] overflow-y-auto overscroll-contain rounded-xl border border-stone-200 bg-white p-2 shadow-xl dark:border-stone-700 dark:bg-stone-900" aria-label="เมนูมือถือ"><a href="index.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">หน้าแรก</a><a href="timetable.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ตารางเดินรถ</a><a href="trips.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">เที่ยวด้วยรถไฟ</a><a href="history.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ประวัติรถไฟไทย</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">ขบวนรถ</p><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ขบวนรถและการเดินทาง</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เส้นทางและสถานี</p><a href="lines.html" class="block rounded-lg px-3 py-2 bg-rail-50 font-semibold text-rail-700 dark:bg-rail-950 dark:text-rail-300">เส้นทางรถไฟ</a><a href="stations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">สถานีน่าสนใจ</a><a href="station-list.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ทำเนียบสถานี</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เรียนรู้</p><a href="museums.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a><a href="sources.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งอ้างอิง</a></nav>
+    </details>
+  </div>
+</header>
+<main id="main">
+<section class="container-page pt-10">
+  <nav class="crumb"><a href="index.html" class="hover:underline">หน้าแรก</a> / เส้นทางรถไฟ</nav>
+  <h1 class="h-page mt-3">เส้นทางรถไฟ</h1>
+  <p class="lead mt-3 max-w-3xl">ทางรถไฟของการรถไฟฯ แบ่งเป็น 4 สายหลักที่ออกจากกรุงเทพฯ (เหนือ อีสาน ใต้ ตะวันออก) และสายแม่กลองที่แยกเป็นอิสระ ทุกสายใช้รางกว้าง 1 เมตร</p>
+  <div class="mt-6 flex flex-wrap gap-2">
+    <a href="#north" class="chip"><span class="mr-2 h-2.5 w-2.5 rounded-full bg-rose-600"></span>สายเหนือ</a>
+    <a href="#northeast" class="chip"><span class="mr-2 h-2.5 w-2.5 rounded-full bg-amber-500"></span>สายตะวันออกเฉียงเหนือ</a>
+    <a href="#south" class="chip"><span class="mr-2 h-2.5 w-2.5 rounded-full bg-emerald-600"></span>สายใต้</a>
+    <a href="#east" class="chip"><span class="mr-2 h-2.5 w-2.5 rounded-full bg-sky-600"></span>สายตะวันออก</a>
+    <a href="#maeklong" class="chip"><span class="mr-2 h-2.5 w-2.5 rounded-full bg-violet-600"></span>สายแม่กลอง</a>
+  </div>
+</section>
+
+<section class="container-page mt-10 grid gap-8 lg:grid-cols-5">
+  <div class="lg:col-span-2">
+    <div class="rounded-2xl border border-stone-200 bg-white p-4 dark:border-stone-800 dark:bg-stone-900">
+      <svg viewBox="40 40 380 610" class="mx-auto h-auto w-full max-w-sm" role="img" aria-labelledby="mapTitle">
+        <title id="mapTitle">แผนภาพเส้นทางรถไฟสายหลักของไทยแบบย่อ</title>
+        <g fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline class="stroke-rose-600" points="200,360 205,320 190,290 180,240 185,190 180,150 170,125 140,95 110,70"/>
+          <polyline class="stroke-amber-500" points="205,320 225,315 270,300 290,230 295,185 300,155"/>
+          <polyline class="stroke-amber-500" points="270,300 310,300 330,305 380,300"/>
+          <polyline class="stroke-sky-600" points="200,360 230,370 255,355 300,365"/>
+          <polyline class="stroke-sky-600" points="230,370 225,395 225,420 230,440"/>
+          <polyline class="stroke-emerald-600" points="200,360 170,365 160,390 165,440 160,470 150,520 145,560 140,585 160,615 200,630"/>
+          <polyline class="stroke-emerald-600" stroke-dasharray="2 8" points="165,370 140,350 110,330"/>
+          <polyline class="stroke-violet-600" stroke-width="4" points="192,372 180,385 168,392"/>
+        </g>
+        <g class="fill-white stroke-stone-700 dark:fill-stone-900 dark:stroke-stone-300" stroke-width="2">
+          <circle cx="200" cy="360" r="7"/>
+          <circle cx="110" cy="70" r="5"/><circle cx="140" cy="95" r="4"/><circle cx="185" cy="190" r="4"/><circle cx="190" cy="290" r="4"/>
+          <circle cx="300" cy="155" r="5"/><circle cx="290" cy="230" r="4"/><circle cx="270" cy="300" r="4"/><circle cx="380" cy="300" r="5"/>
+          <circle cx="300" cy="365" r="5"/><circle cx="230" cy="440" r="5"/><circle cx="225" cy="420" r="4"/>
+          <circle cx="165" cy="440" r="4"/><circle cx="145" cy="560" r="4"/><circle cx="160" cy="615" r="4"/><circle cx="200" cy="630" r="5"/>
+          <circle cx="110" cy="330" r="4"/><circle cx="140" cy="350" r="3"/>
+        </g>
+        <g class="fill-stone-700 dark:fill-stone-300" font-size="13" font-family="Noto Sans Thai, sans-serif">
+          <text x="208" y="352" font-weight="700" class="fill-stone-900 dark:fill-stone-50">กรุงเทพฯ</text>
+          <text x="118" y="64">เชียงใหม่</text><text x="148" y="92">ลำปาง</text><text x="193" y="194">พิษณุโลก</text><text x="150" y="286">ลพบุรี</text>
+          <text x="308" y="152">หนองคาย</text><text x="298" y="233">ขอนแก่น</text><text x="238" y="290">โคราช</text><text x="352" y="290">อุบลฯ</text>
+          <text x="308" y="370">อรัญประเทศ</text><text x="234" y="424">พัทยา</text><text x="238" y="446">สัตหีบ</text>
+          <text x="98" y="444">หัวหิน</text><text x="68" y="564">สุราษฎร์ธานี</text><text x="104" y="620">หาดใหญ่</text><text x="208" y="636">สุไหงโก-ลก</text>
+          <text x="54" y="326">น้ำตก</text><text x="74" y="355">กาญจนบุรี</text>
+          <text x="136" y="408" font-size="11" class="fill-violet-700 dark:fill-violet-300">แม่กลอง</text>
+        </g>
+      </svg>
+      <p class="mt-2 text-center text-xs text-stone-500">แผนภาพอย่างง่าย ไม่ได้วาดตามมาตราส่วน · เส้นประคือสายน้ำตก</p>
+    </div>
+  </div>
+  <div class="lg:col-span-3">
+    <div class="overflow-x-auto rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+      <table class="w-full min-w-[520px] text-left text-[15px]">
+        <thead class="bg-cream-100 text-sm text-stone-600 dark:bg-stone-800 dark:text-stone-300"><tr><th class="px-4 py-3 font-medium">สาย</th><th class="px-4 py-3 font-medium">ปลายทาง</th><th class="px-4 py-3 font-medium">ระยะทางจากกรุงเทพฯ</th></tr></thead>
+        <tbody class="divide-y divide-stone-200 dark:divide-stone-800">
+          <tr><td class="px-4 py-3 font-medium text-rose-700 dark:text-rose-400">เหนือ</td><td class="px-4 py-3">เชียงใหม่</td><td class="px-4 py-3">751 กม.</td></tr>
+          <tr><td class="px-4 py-3 font-medium text-amber-700 dark:text-amber-400">อีสาน</td><td class="px-4 py-3">หนองคาย</td><td class="px-4 py-3">624 กม.</td></tr>
+          <tr><td class="px-4 py-3 font-medium text-amber-700 dark:text-amber-400">อีสาน</td><td class="px-4 py-3">อุบลราชธานี</td><td class="px-4 py-3">575 กม.</td></tr>
+          <tr><td class="px-4 py-3 font-medium text-emerald-700 dark:text-emerald-400">ใต้</td><td class="px-4 py-3">สุไหงโก-ลก</td><td class="px-4 py-3">ราว 1,140 กม. (ยาวที่สุด)</td></tr>
+          <tr><td class="px-4 py-3 font-medium text-emerald-700 dark:text-emerald-400">ใต้ (สายน้ำตก)</td><td class="px-4 py-3">น้ำตก (กาญจนบุรี)</td><td class="px-4 py-3">ราว 210 กม. (นับจากธนบุรี)</td></tr>
+          <tr><td class="px-4 py-3 font-medium text-sky-700 dark:text-sky-400">ตะวันออก</td><td class="px-4 py-3">อรัญประเทศ</td><td class="px-4 py-3">255 กม.</td></tr>
+          <tr><td class="px-4 py-3 font-medium text-violet-700 dark:text-violet-400">แม่กลอง</td><td class="px-4 py-3">วงเวียนใหญ่–มหาชัย / บ้านแหลม–แม่กลอง</td><td class="px-4 py-3">แยกจากโครงข่ายหลัก</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="mt-6">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Thailand_map_SRT_network_2025.svg/960px-Thailand_map_SRT_network_2025.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Thailand_map_SRT_network_2025.svg/1920px-Thailand_map_SRT_network_2025.svg.png" alt="แผนที่โครงข่ายทางรถไฟของการรถไฟแห่งประเทศไทย พ.ศ. 2568" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">แผนที่โครงข่ายทางรถไฟจริง พ.ศ. 2568 (ตามมาตราส่วน)</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Iso8.tv · <a href="https://commons.wikimedia.org/wiki/File:Thailand_map_SRT_network_2025.svg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+    </div>
+  </div>
+</section>
+
+<div class="container-page mt-14 space-y-10">
+
+  <article id="north" class="detail border-l-8 border-l-rose-600">
+    <h2 class="h-section">สายเหนือ: กรุงเทพฯ–เชียงใหม่</h2>
+    <p class="mt-2"><a href="line-north.html" class="inline-flex items-center gap-1 rounded-lg bg-rail-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-rail-800">ผังสถานีทั้งหมด ลำดับการก่อสร้าง และโครงการทางคู่ →</a></p>
+    <div class="mt-4 grid gap-8 lg:grid-cols-5">
+      <div class="prose-th lg:col-span-3">
+        <p>วิ่งร่วมทางกับสายอีสานจนถึง <b>ชุมทางบ้านภาชี</b> แล้วแยกขึ้นเหนือผ่านลพบุรี นครสวรรค์ พิษณุโลก อุตรดิตถ์ ลำปาง ลำพูน ถึงเชียงใหม่ มีทางแยกจากชุมทางบ้านดาราไปสวรรคโลก (สุโขทัย)</p>
+        <ul>
+          <li><b>อุโมงค์ขุนตาน</b> ยาวราว 1.35 กม. เปิดใช้ พ.ศ. 2461 และสถานีขุนตานซึ่งอยู่บนภูเขา เป็นทางเข้าอุทยานแห่งชาติดอยขุนตาน</li>
+          <li>ช่วงอุตรดิตถ์–ลำปางเป็นทางภูเขาที่สวยที่สุดช่วงหนึ่ง เหมาะกับการนั่งรถนอนแล้วตื่นมาดูวิวตอนเช้า</li>
+          <li>กำลังก่อสร้าง <b>ทางสายใหม่เด่นชัย–เชียงราย–เชียงของ</b> ซึ่งมีอุโมงค์ยาวหลายแห่ง</li>
+        </ul>
+        <p><a href="stations.html#chiangmai">อ่านเรื่องสถานีเชียงใหม่</a></p>
+      </div>
+      <div class="lg:col-span-2"><figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Ngao_Tunnel%2C_December_2024.jpg/960px-Ngao_Tunnel%2C_December_2024.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://upload.wikimedia.org/wikipedia/commons/9/91/Ngao_Tunnel%2C_December_2024.jpg" alt="อุโมงค์งาวระหว่างก่อสร้าง ทางรถไฟสายเด่นชัย–เชียงราย–เชียงของ" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">อุโมงค์งาวระหว่างก่อสร้าง ทางสายเด่นชัย–เชียงของ (ธ.ค. 2567)</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: MGR Online VDO · <a href="https://commons.wikimedia.org/wiki/File:Ngao_Tunnel,_December_2024.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY 3.0</a></span></figcaption>
+</figure></div>
+    </div>
+  </article>
+
+  <article id="northeast" class="detail border-l-8 border-l-amber-500">
+    <h2 class="h-section">สายตะวันออกเฉียงเหนือ: หนองคาย และอุบลราชธานี</h2>
+    <p class="mt-2"><a href="line-northeast.html" class="inline-flex items-center gap-1 rounded-lg bg-rail-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-rail-800">ผังสถานีทั้งหมด ลำดับการก่อสร้าง และโครงการทางคู่ →</a></p>
+    <div class="mt-4 grid gap-8 lg:grid-cols-5">
+      <div class="prose-th lg:col-span-3">
+        <p>สายที่เก่าแก่ที่สุด เพราะช่วงกรุงเทพฯ–อยุธยาเปิดเป็นช่วงแรกเมื่อ พ.ศ. 2440 จากชุมทางบ้านภาชีผ่านแก่งคอย ข้ามเทือกเขาดงพญาเย็นถึงนครราชสีมา แล้วแยกที่ <b>ชุมทางถนนจิระ</b></p>
+        <ul>
+          <li><b>สายหนองคาย</b> ผ่านขอนแก่น อุดรธานี ข้ามแม่น้ำโขงไปลาวได้ทางสะพานมิตรภาพไทย–ลาว</li>
+          <li><b>สายอุบลราชธานี</b> ผ่านบุรีรัมย์ สุรินทร์ ศรีสะเกษ สิ้นสุดที่สถานีอุบลราชธานี (อำเภอวารินชำราบ)</li>
+          <li>ทางแยก <b>แก่งคอย–บัวใหญ่</b> ผ่านลำนารายณ์ ช่วยลดความแออัดบนทางช่วงดงพญาเย็น ช่วงหน้าหนาวมีขบวนท่องเที่ยวไปชม <b>เขื่อนป่าสักชลสิทธิ์</b> ซึ่งรถไฟวิ่งผ่านกลางอ่างเก็บน้ำ</li>
+        </ul>
+        <p><a href="stations.html#nongkhai">อ่านเรื่องสถานีหนองคาย</a></p>
+      </div>
+      <div class="lg:col-span-2"><figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Muak_Lek_Railway_Station%2C_2023.jpg/960px-Muak_Lek_Railway_Station%2C_2023.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Muak_Lek_Railway_Station%2C_2023.jpg/1920px-Muak_Lek_Railway_Station%2C_2023.jpg" alt="สถานีมวกเหล็กเดิมกับทางรถไฟยกระดับสายใหม่" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">สถานีมวกเหล็กเดิมกับทางคู่ยกระดับที่สร้างใหม่ (2566)</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Paul_012 · <a href="https://commons.wikimedia.org/wiki/File:Muak_Lek_Railway_Station,_2023.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure></div>
+    </div>
+  </article>
+
+  <article id="south" class="detail border-l-8 border-l-emerald-600">
+    <h2 class="h-section">สายใต้: กรุงเทพฯ–สุไหงโก-ลก และสายน้ำตก</h2>
+    <p class="mt-2"><a href="line-south.html" class="inline-flex items-center gap-1 rounded-lg bg-rail-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-rail-800">ผังสถานีทั้งหมด ลำดับการก่อสร้าง และโครงการทางคู่ →</a></p>
+    <div class="mt-4 grid gap-8 lg:grid-cols-5">
+      <div class="prose-th lg:col-span-3">
+        <p><b>สายที่ยาวที่สุด</b> ผ่านนครปฐม ราชบุรี เพชรบุรี หัวหิน ประจวบคีรีขันธ์ ชุมพร สุราษฎร์ธานี ทุ่งสง พัทลุง ถึงชุมทางหาดใหญ่ แล้วแยกไปสองทาง คือ ไปปาดังเบซาร์ (ชายแดนมาเลเซีย) และไปสุไหงโก-ลก (นราธิวาส)</p>
+        <ul>
+          <li>ทางแยกย่อยหลายสาย เช่น สุพรรณบุรี คีรีรัฐนิคม กันตัง (ตรัง) และนครศรีธรรมราช</li>
+          <li><b>สายน้ำตก</b> แยกที่ชุมทางหนองปลาดุก ไปกาญจนบุรี ผ่าน <a href="stations.html#kwai">สะพานข้ามแม่น้ำแคว</a> และ <a href="stations.html#wangpho">ทางเลียบหน้าผาวังโพ</a> คือช่วงที่ยังเหลือของทางรถไฟสายมรณะ</li>
+          <li>ขบวนรถทางไกลสายใต้เคยออกจากสถานีธนบุรี ปัจจุบันออกจากกรุงเทพอภิวัฒน์ แต่ยังมีขบวนธรรมดาบางขบวนเริ่มที่ธนบุรี</li>
+        </ul>
+        <p><a href="stations.html#huahin">อ่านเรื่องสถานีหัวหิน</a> · <a href="stations.html#padang">ปาดังเบซาร์</a></p>
+      </div>
+      <div class="lg:col-span-2"><figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/THAI_RAILWAYS_KRUPPS_LOCO_HAULED_TRAIN_ON_THE_WAMPO_VIADUCT_NEAR_NAM_TOK_BOUND_FOR_RIVER_KWAI_BRIDGE_AND_BANGKOK_THAILAND_JAN_2013_%288526999337%29.jpg/960px-THAI_RAILWAYS_KRUPPS_LOCO_HAULED_TRAIN_ON_THE_WAMPO_VIADUCT_NEAR_NAM_TOK_BOUND_FOR_RIVER_KWAI_BRIDGE_AND_BANGKOK_THAILAND_JAN_2013_%288526999337%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/THAI_RAILWAYS_KRUPPS_LOCO_HAULED_TRAIN_ON_THE_WAMPO_VIADUCT_NEAR_NAM_TOK_BOUND_FOR_RIVER_KWAI_BRIDGE_AND_BANGKOK_THAILAND_JAN_2013_%288526999337%29.jpg/1920px-THAI_RAILWAYS_KRUPPS_LOCO_HAULED_TRAIN_ON_THE_WAMPO_VIADUCT_NEAR_NAM_TOK_BOUND_FOR_RIVER_KWAI_BRIDGE_AND_BANGKOK_THAILAND_JAN_2013_%288526999337%29.jpg" alt="ขบวนรถสายน้ำตกลากด้วยรถจักร Krupp แล่นบนสะพานไม้เลียบหน้าผาวังโพ" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">ขบวนรถสายน้ำตกบนสะพานเลียบหน้าผาวังโพ</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: calflier001 · <a href="https://commons.wikimedia.org/wiki/File:THAI_RAILWAYS_KRUPPS_LOCO_HAULED_TRAIN_ON_THE_WAMPO_VIADUCT_NEAR_NAM_TOK_BOUND_FOR_RIVER_KWAI_BRIDGE_AND_BANGKOK_THAILAND_JAN_2013_(8526999337).jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
+</figure></div>
+    </div>
+  </article>
+
+  <article id="east" class="detail border-l-8 border-l-sky-600">
+    <h2 class="h-section">สายตะวันออก: อรัญประเทศ และชายฝั่งทะเล</h2>
+    <p class="mt-2"><a href="line-east.html" class="inline-flex items-center gap-1 rounded-lg bg-rail-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-rail-800">ผังสถานีทั้งหมด ลำดับการก่อสร้าง และโครงการทางคู่ →</a></p>
+    <div class="prose-th mt-4 max-w-3xl">
+      <p>ออกจากสถานีกรุงเทพ (หัวลำโพง) ซึ่งยังเป็นต้นทางของขบวนสายตะวันออกทั้งหมด ผ่านฉะเชิงเทรา ปราจีนบุรี สระแก้ว ถึงอรัญประเทศ และต่อไปถึงชายแดนกัมพูชาที่บ้านคลองลึก</p>
+      <ul>
+        <li>ที่ <b>ชุมทางฉะเชิงเทรา</b> มีทางแยกลงใต้ไปชลบุรี ศรีราชา พัทยา ถึงสัตหีบ และทางแยกไปท่าเรือแหลมฉบังและมาบตาพุด สำคัญมากสำหรับการขนสินค้าเข้า–ออกท่าเรือ</li>
+        <li>วันหยุดมีขบวนท่องเที่ยวไป <b>หาดสวนสนประดิพัทธ์</b> และชายทะเลภาคตะวันออก</li>
+        <li>ทางแยกคลองสิบเก้า–แก่งคอย เชื่อมสายตะวันออกกับสายอีสานโดยไม่ต้องเข้ากรุงเทพฯ</li>
+      </ul>
+    </div>
+  </article>
+
+  <article id="maeklong" class="detail border-l-8 border-l-violet-600">
+    <h2 class="h-section">สายแม่กลอง</h2>
+    <div class="mt-4 grid gap-8 lg:grid-cols-5">
+      <div class="prose-th lg:col-span-3">
+        <p>ทางรถไฟสายเล็กที่ไม่เชื่อมกับโครงข่ายหลัก แต่เดิมสร้างโดยบริษัทเอกชน แบ่งเป็น 2 ช่วง ผู้โดยสารต้องนั่งเรือข้ามแม่น้ำท่าจีนต่อกันเอง</p>
+        <ul>
+          <li><b>วงเวียนใหญ่–มหาชัย</b> (สมุทรสาคร)</li>
+          <li><b>บ้านแหลม–แม่กลอง</b> (สมุทรสงคราม) ปลายทางคือ <a href="stations.html#maeklong">ตลาดร่มหุบ</a> ที่แม่ค้าต้องหุบร่มและเก็บของทุกครั้งที่รถไฟผ่าน</li>
+        </ul>
+        <p>ในอนาคตจะมีโครงการรถไฟสายสีแดงต่อไปมหาชัยและเชื่อมทั้งสองช่วงเข้าด้วยกัน</p>
+      </div>
+      <div class="lg:col-span-2"><figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Maeklong_Railway_Market_07.jpg/960px-Maeklong_Railway_Market_07.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Maeklong_Railway_Market_07.jpg/1920px-Maeklong_Railway_Market_07.jpg" alt="รถไฟแล่นผ่านกลางตลาดร่มหุบแม่กลอง" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">รถไฟแล่นผ่านตลาดร่มหุบ แม่กลอง</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Codas · <a href="https://commons.wikimedia.org/wiki/File:Maeklong_Railway_Market_07.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure></div>
+    </div>
+  </article>
+</div>
+
+</main>
+<footer class="mt-20 border-t border-stone-200 bg-cream-100/60 dark:border-stone-800 dark:bg-stone-900/50">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:grid-cols-3">
+    <div>
+      <p class="font-display text-base font-semibold text-stone-900 dark:text-stone-100">รถไฟไทย วิกิ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">สื่อการเรียนรู้เรื่องรถไฟไทย จัดทำเพื่อการศึกษา ไม่แสวงหากำไร และไม่ได้เป็นเว็บไซต์ทางการของการรถไฟแห่งประเทศไทย</p>
+      <p class="mt-3 flex gap-2 rounded-xl border border-amber-300 bg-amber-50 px-3 py-2 text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200"><svg viewBox="0 0 24 24" class="mt-0.5 h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg><span><b>คำเตือน:</b> เนื้อหาทั้งหมดถูกเรียบเรียงโดย AI กรุณาตรวจสอบข้อมูลให้ถูกต้องทุกครั้ง</span></p>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ขบวนรถ</p>
+      <ul class="mt-2 space-y-1 text-stone-600 dark:text-stone-400">
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="steam.html">รถจักรไอน้ำ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="diesel.html">รถจักรดีเซล</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="railcars.html">รถดีเซลรางและรถโดยสาร</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="electric.html">รถไฟฟ้าและความเร็วสูง</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="urban.html">รถไฟฟ้าในกรุงเทพฯ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="timetable.html">ตารางเดินรถ</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ข้อมูลและภาพ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">ภาพส่วนใหญ่มาจาก <a class="underline hover:text-rail-700" href="https://commons.wikimedia.org/">Wikimedia Commons</a> ภายใต้สัญญาอนุญาตครีเอทีฟคอมมอนส์ ดูชื่อผู้ถ่ายทั้งหมดได้ที่ <a class="underline hover:text-rail-700" href="sources.html">แหล่งอ้างอิง</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/lightbox.js" defer></script>
+
+</body>
+</html>

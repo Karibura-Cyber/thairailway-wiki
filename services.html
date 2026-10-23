@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="th" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ขบวนรถและการเดินทาง · รถไฟไทย วิกิ</title>
+<meta name="description" content="ประเภทขบวน ขบวนที่มีชื่อ ชั้นที่นั่ง วิธีจองตั๋ว และขบวนนำเที่ยว">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Prompt:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="assets/js/loader.js"></script>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script src="assets/tailwind-config.js"></script>
+</head>
+<body id="top" class="bg-cream-50 font-sans text-[17px] leading-relaxed text-stone-800 antialiased dark:bg-stone-950 dark:text-stone-200">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-3 focus:py-2">ข้ามไปเนื้อหา</a>
+<header class="sticky top-0 z-40 border-b border-stone-200/80 bg-cream-50/90 backdrop-blur dark:border-stone-800 dark:bg-stone-950/90">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
+    <a href="index.html" class="flex items-center gap-2.5 font-display text-lg font-semibold text-stone-900 dark:text-stone-100"><svg viewBox="0 0 32 32" class="h-8 w-8 shrink-0" aria-hidden="true"><rect width="32" height="32" rx="8" class="fill-rail-700"/><path d="M10 7h12a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H10a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3Zm0 3v4h12v-4H10Zm1 7.5a1.5 1.5 0 1 0 0 .01Zm10 0a1.5 1.5 0 1 0 0 .01ZM11 23l-3 3m13-3 3 3" fill="none" stroke="#fdf8f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>รถไฟไทย <span class="text-rail-700 dark:text-rail-400">วิกิ</span></span></a>
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="เมนูหลัก">
+      <a href="history.html" class="nav-link">ประวัติ</a><div class="group relative">
+          <button class="nav-link nav-link-active inline-flex items-center gap-1">ขบวนรถ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute left-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800 font-semibold text-rail-700 dark:text-rail-300">ขบวนรถและการเดินทาง</a></div>
+          </div>
+        </div><a href="timetable.html" class="nav-link">ตารางเดินรถ</a><a href="trips.html" class="nav-link">เที่ยวรถไฟ</a><a href="lines.html" class="nav-link">เส้นทาง</a><a href="stations.html" class="nav-link">สถานี</a><div class="group relative">
+          <button class="nav-link inline-flex items-center gap-1">เรียนรู้ <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.5 7.5 10 12l4.5-4.5"/></svg></button>
+          <div class="invisible absolute right-0 top-full z-30 w-64 max-w-[calc(100vw-2rem)] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-xl border border-stone-200 bg-white p-2 shadow-lg dark:border-stone-700 dark:bg-stone-900"><a href="museums.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a></div>
+          </div>
+        </div>
+    </nav>
+    <details class="relative lg:hidden">
+      <summary class="flex cursor-pointer list-none items-center gap-2 rounded-lg border border-stone-300 px-3 py-1.5 text-sm dark:border-stone-700 [&::-webkit-details-marker]:hidden">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>เมนู
+      </summary>
+      <nav class="absolute right-0 top-full mt-2 max-h-[calc(100dvh-5rem)] w-72 max-w-[calc(100vw-2rem)] overflow-y-auto overscroll-contain rounded-xl border border-stone-200 bg-white p-2 shadow-xl dark:border-stone-700 dark:bg-stone-900" aria-label="เมนูมือถือ"><a href="index.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">หน้าแรก</a><a href="timetable.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ตารางเดินรถ</a><a href="trips.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">เที่ยวด้วยรถไฟ</a><a href="history.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ประวัติรถไฟไทย</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">ขบวนรถ</p><a href="steam.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรไอน้ำ</a><a href="diesel.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถจักรดีเซล</a><a href="railcars.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถดีเซลรางและรถโดยสาร</a><a href="electric.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าและความเร็วสูง</a><a href="urban.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">รถไฟฟ้าในกรุงเทพฯ</a><a href="services.html" class="block rounded-lg px-3 py-2 bg-rail-50 font-semibold text-rail-700 dark:bg-rail-950 dark:text-rail-300">ขบวนรถและการเดินทาง</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เส้นทางและสถานี</p><a href="lines.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">เส้นทางรถไฟ</a><a href="stations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">สถานีน่าสนใจ</a><a href="station-list.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">ทำเนียบสถานี</a><p class="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wide text-stone-400">เรียนรู้</p><a href="museums.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งเรียนรู้และพิพิธภัณฑ์</a><a href="operations.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">การเดินรถและการขนส่งสินค้า</a><a href="projects.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">โครงการและอนาคต</a><a href="accidents.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อุบัติเหตุและความปลอดภัย</a><a href="quiz.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แบบทดสอบ</a><a href="glossary.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">อภิธานศัพท์</a><a href="sources.html" class="block rounded-lg px-3 py-2 hover:bg-cream-100 dark:hover:bg-stone-800">แหล่งอ้างอิง</a></nav>
+    </details>
+  </div>
+</header>
+<main id="main">
+<section class="container-page pt-10">
+  <nav class="crumb"><a href="index.html" class="hover:underline">หน้าแรก</a> / ขบวนรถ / ขบวนรถและการเดินทาง</nav>
+  <h1 class="h-page mt-3">ขบวนรถและการเดินทาง</h1>
+  <p class="lead mt-3 max-w-3xl">อยากนั่งรถไฟแต่ไม่รู้จะเลือกขบวนไหน หน้านี้อธิบายประเภทขบวน ขบวนที่มีชื่อเรียก ชั้นที่นั่งและที่นอน วิธีจองตั๋ว และขบวนนำเที่ยวที่น่าลอง</p>
+  <div class="mt-6 flex flex-wrap gap-2">
+    <a href="#types" class="chip">ประเภทขบวน</a>
+    <a href="#numbers" class="chip">เลขขบวนบอกอะไร</a>
+    <a href="#named" class="chip">ขบวนที่มีชื่อ</a>
+    <a href="#classes" class="chip">ชั้นและค่าโดยสาร</a>
+    <a href="#booking" class="chip">จองตั๋ว</a>
+    <a href="#tourist" class="chip">ขบวนนำเที่ยว</a>
+    <a href="#international" class="chip">รถไฟข้ามประเทศ</a>
+  </div>
+</section>
+
+<div class="container-page mt-12 space-y-16">
+
+  <section id="types" class="scroll-mt-24">
+    <h2 class="h-section">ประเภทขบวนรถโดยสาร</h2>
+    <p class="mt-3 max-w-3xl text-stone-600 dark:text-stone-400">การรถไฟฯ แบ่งขบวนตามความเร็วและจำนวนสถานีที่จอด ยิ่งจอดน้อยยิ่งถึงเร็วแต่ค่าโดยสารสูงขึ้น</p>
+    <div class="mt-6 overflow-x-auto rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+      <table class="w-full min-w-[640px] text-left text-[15px]">
+        <thead class="bg-cream-100 text-sm text-stone-600 dark:bg-stone-800 dark:text-stone-300"><tr><th class="px-4 py-3 font-medium">ประเภท</th><th class="px-4 py-3 font-medium">เลขขบวน</th><th class="px-4 py-3 font-medium">ลักษณะ</th></tr></thead>
+        <tbody class="divide-y divide-stone-200 dark:divide-stone-800">
+          <tr><td class="px-4 py-3"><span class="badge bg-rail-100 text-rail-800 dark:bg-rail-950 dark:text-rail-300">ด่วนพิเศษ</span></td><td class="px-4 py-3 tabular-nums">1–50</td><td class="px-4 py-3">เร็วที่สุด จอดเฉพาะสถานีสำคัญ ปรับอากาศทั้งขบวน มีทั้งรถนอน CNR และรถดีเซลรางกลางวัน</td></tr>
+          <tr><td class="px-4 py-3"><span class="badge bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300">ด่วน</span></td><td class="px-4 py-3 tabular-nums">51–98</td><td class="px-4 py-3">จอดสถานีประจำจังหวัดและเมืองใหญ่ มีทั้งชั้น 1 ถึงชั้น 3 ในขบวนเดียว</td></tr>
+          <tr><td class="px-4 py-3"><span class="badge bg-sky-100 text-sky-800 dark:bg-sky-950 dark:text-sky-300">เร็ว</span></td><td class="px-4 py-3 tabular-nums">1xx</td><td class="px-4 py-3">จอดมากกว่ารถด่วน มีรถนอนชั้น 2 และที่นั่งชั้น 3 ราคาประหยัด</td></tr>
+          <tr><td class="px-4 py-3"><span class="badge badge-off">ธรรมดา</span></td><td class="px-4 py-3 tabular-nums">2xx</td><td class="px-4 py-3">จอดทุกสถานี ส่วนใหญ่เป็นชั้น 3 พัดลม ค่าโดยสารถูกมาก</td></tr>
+          <tr><td class="px-4 py-3"><span class="badge badge-off">ชานเมือง</span></td><td class="px-4 py-3 tabular-nums">3xx</td><td class="px-4 py-3">วิ่งระยะสั้นเข้า–ออกกรุงเทพฯ ช่วงเช้าและเย็น</td></tr>
+          <tr><td class="px-4 py-3"><span class="badge badge-off">ท้องถิ่น</span></td><td class="px-4 py-3 tabular-nums">4xx</td><td class="px-4 py-3">วิ่งระหว่างเมืองในต่างจังหวัด ไม่เข้ากรุงเทพฯ</td></tr>
+          <tr><td class="px-4 py-3"><span class="badge badge-new">นำเที่ยว</span></td><td class="px-4 py-3 tabular-nums">9xx</td><td class="px-4 py-3">ขบวนพิเศษเพื่อการท่องเที่ยว ส่วนใหญ่วิ่งวันหยุด</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="numbers" class="scroll-mt-24 grid gap-8 lg:grid-cols-5">
+    <div class="prose-th lg:col-span-3">
+      <h2 class="h-section">เลขขบวนบอกอะไร</h2>
+      <p>เลขขบวนรถไฟไทยไม่ได้ตั้งแบบสุ่ม มีหลักง่าย ๆ 2 ข้อ</p>
+      <ul>
+        <li><b>เลขคี่ = เที่ยวขึ้น</b> ออกจากกรุงเทพฯ (หรือธนบุรี) เช่น ขบวน 9 กรุงเทพฯ → เชียงใหม่ <b>เลขคู่ = เที่ยวล่อง</b> เข้ากรุงเทพฯ เช่น ขบวน 10 เชียงใหม่ → กรุงเทพฯ</li>
+        <li><b>เลขยิ่งน้อย ขบวนยิ่งสำคัญ</b> ด่วนพิเศษ 1–50 ยังแบ่งย่อยตามสาย คือ 1–20 สายเหนือ, 21–30 สายอีสาน, 31–50 สายใต้ และรถด่วน 51–60 สายเหนือ, 61–80 สายอีสาน, 81–98 สายใต้</li>
+      </ul>
+      <p>เลข 3 หลักที่ขึ้นต้นด้วย 5–8 ใช้กับรถสินค้า (5 = อีสาน, 6 = เหนือ, 7 = ใต้, 8 = ตะวันออก) ส่วนเลข 4 หลักขึ้นไปเป็นขบวนพิเศษอื่น ๆ เช่น รถสายแม่กลอง</p>
+      <p><a href="timetable.html">ดูทุกขบวนในตารางเดินรถ →</a></p>
+    </div>
+    <div class="lg:col-span-2">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Special_express_train_no.40_at_Krung_Thep_Aphiwat_Central_Station_-_img_01.jpg/960px-Special_express_train_no.40_at_Krung_Thep_Aphiwat_Central_Station_-_img_01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Special_express_train_no.40_at_Krung_Thep_Aphiwat_Central_Station_-_img_01.jpg/1920px-Special_express_train_no.40_at_Krung_Thep_Aphiwat_Central_Station_-_img_01.jpg" alt="ขบวนรถด่วนพิเศษที่ 40 จากสุราษฎร์ธานี ที่สถานีกลางกรุงเทพอภิวัฒน์" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">ขบวน 40 (เลขคู่ = ขาเข้ากรุงเทพฯ) จากสุราษฎร์ธานี ถึงกรุงเทพอภิวัฒน์</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Reversemos.sapanaht · <a href="https://commons.wikimedia.org/wiki/File:Special_express_train_no.40_at_Krung_Thep_Aphiwat_Central_Station_-_img_01.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+    </div>
+  </section>
+
+  <section id="named" class="scroll-mt-24">
+    <h2 class="h-section">ขบวนรถด่วนพิเศษที่มีชื่อ</h2>
+    <p class="mt-3 max-w-3xl text-stone-600 dark:text-stone-400">เมื่อการรถไฟฯ ได้รถโดยสารรุ่นใหม่จากจีน (CNR) 115 คัน ในปี 2559 ขบวนรถนอนด่วนพิเศษ 4 สายได้รับพระราชทานชื่อจากสมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี</p>
+    <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><p class="text-sm text-stone-500">ขบวน 9/10 · สายเหนือ</p><p class="h-item mt-1">อุตราวิถี</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">"ทางสู่ภาคเหนือ" กรุงเทพอภิวัฒน์–เชียงใหม่ เที่ยวแรก 11 พ.ย. 2559 ออก 18:40 ถึง 07:15</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><p class="text-sm text-stone-500">ขบวน 23/24 · สายอีสาน</p><p class="h-item mt-1">อีสานวัตนา</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">กรุงเทพอภิวัฒน์–อุบลราชธานี เที่ยวแรก 11 พ.ย. 2559 ออก 21:05 ถึง 06:00</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><p class="text-sm text-stone-500">ขบวน 25/26 · สายอีสาน</p><p class="h-item mt-1">อีสานมรรคา</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">"ทางสู่ภาคตะวันออกเฉียงเหนือ" กรุงเทพอภิวัฒน์–หนองคาย เที่ยวแรก 2 ธ.ค. 2559 ออก 20:25 ถึง 06:25</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><p class="text-sm text-stone-500">ขบวน 31/32 · สายใต้</p><p class="h-item mt-1">ทักษิณารัถย์</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">"ทางเดินสู่ภาคใต้" กรุงเทพอภิวัฒน์–ชุมทางหาดใหญ่ เที่ยวแรก 2 ธ.ค. 2559 ออก 16:50 ถึง 07:05</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><p class="text-sm text-stone-500">ขบวน 37/38 · สายใต้</p><p class="h-item mt-1">ทักษิณ</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">กรุงเทพอภิวัฒน์–สุไหงโก-ลก 1,152 กม. <b>ด่วนพิเศษที่วิ่งไกลที่สุดในไทย</b> เดิมเป็นขบวน 19/20 ปลายทางยะลา ขยายถึงสุไหงโก-ลกเมื่อ พ.ย. 2529</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><p class="text-sm text-stone-500">ขบวน 45/46 · สายใต้</p><p class="h-item mt-1">ระหว่างประเทศ</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">กรุงเทพอภิวัฒน์–ปาดังเบซาร์ (มาเลเซีย) มีเฉพาะรถนอนชั้น 2 พ่วงไปกับขบวนทักษิณถึงหาดใหญ่</p></div>
+    </div>
+    <div class="mt-5 rounded-2xl border border-dashed border-stone-300 p-5 text-[15px] text-stone-600 dark:border-stone-700 dark:text-stone-400"><b>ขบวนในอดีต: นครพิงค์ (1/2)</b> รถด่วนพิเศษกรุงเทพ–เชียงใหม่ที่คนไทยคุ้นเคย วิ่งนานเกือบ 30 ปี เที่ยวสุดท้ายคือ 11 พฤศจิกายน 2559 แล้วถูกแทนที่ด้วยอุตราวิถี</div>
+    <div class="mt-6 grid gap-6 md:grid-cols-3">
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/201701_SRT_CNR_Second_Class_Sleeper_Coaches_as_023_at_Bangkok_Station.jpg/960px-201701_SRT_CNR_Second_Class_Sleeper_Coaches_as_023_at_Bangkok_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/201701_SRT_CNR_Second_Class_Sleeper_Coaches_as_023_at_Bangkok_Station.jpg/1920px-201701_SRT_CNR_Second_Class_Sleeper_Coaches_as_023_at_Bangkok_Station.jpg" alt="รถนอนชั้น 2 CNR ในขบวนอีสานวัตนา" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">รถนอน CNR ในขบวน 23 อีสานวัตนา</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: MNXANL · <a href="https://commons.wikimedia.org/wiki/File:201701_SRT_CNR_Second_Class_Sleeper_Coaches_as_023_at_Bangkok_Station.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Daewoo_APD.20_2514_special_express_43.jpg/960px-Daewoo_APD.20_2514_special_express_43.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Daewoo_APD.20_2514_special_express_43.jpg/1920px-Daewoo_APD.20_2514_special_express_43.jpg" alt="รถดีเซลรางแดวูทำขบวนด่วนพิเศษที่ 43" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">ด่วนพิเศษกลางวันขบวน 43 (ดีเซลรางแดวู)</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Pakawut kenta · <a href="https://commons.wikimedia.org/wiki/File:Daewoo_APD.20_2514_special_express_43.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Special_Express_no.21_%28Sprinter%29_at_Surin_Station_-_img_01.jpg/960px-Special_Express_no.21_%28Sprinter%29_at_Surin_Station_-_img_01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Special_Express_no.21_%28Sprinter%29_at_Surin_Station_-_img_01.jpg/1920px-Special_Express_no.21_%28Sprinter%29_at_Surin_Station_-_img_01.jpg" alt="รถดีเซลรางสปรินเตอร์ทำขบวนด่วนพิเศษที่ 21 ที่สถานีสุรินทร์" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">ด่วนพิเศษขบวน 21 (สปรินเตอร์) ที่สุรินทร์</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Reversemos.sapanaht · <a href="https://commons.wikimedia.org/wiki/File:Special_Express_no.21_(Sprinter)_at_Surin_Station_-_img_01.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+    </div>
+  </section>
+
+  <section id="classes" class="scroll-mt-24">
+    <h2 class="h-section">ชั้นที่นั่ง ที่นอน และค่าโดยสาร</h2>
+    <div class="mt-6 grid gap-5 md:grid-cols-3">
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">ชั้น 1</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ห้องนอนส่วนตัว 2 เตียง (บน–ล่าง) ปรับอากาศ มีอ่างล้างหน้าในห้อง เดินทางคนเดียวจ่าย "เหมาห้อง" ได้</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">ชั้น 2</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ตอนกลางวันเป็นเก้าอี้หันหน้าเข้าหากัน ตอนกลางคืนพนักงานกางเป็นเตียงบน–ล่างพร้อมม่าน มีทั้งปรับอากาศและพัดลม เตียงล่างกว้างกว่าและแพงกว่าเตียงบน</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900"><p class="h-item">ชั้น 3</p><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ที่นั่งพัดลม หน้าต่างเปิดได้ ราคาถูกที่สุด เหมาะกับการเดินทางระยะสั้นและชมวิวสองข้างทาง</p></div>
+    </div>
+    <div class="mt-6 grid gap-8 lg:grid-cols-5">
+      <div class="lg:col-span-3">
+        <p class="font-semibold">ตัวอย่างค่าโดยสาร: ขบวน 9 อุตราวิถี กรุงเทพอภิวัฒน์ → เชียงใหม่ (744 กม.)</p>
+        <div class="mt-3 overflow-x-auto rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+          <table class="w-full min-w-[420px] text-left text-[15px]">
+            <thead class="bg-cream-100 text-sm text-stone-600 dark:bg-stone-800 dark:text-stone-300"><tr><th class="px-4 py-3 font-medium">ที่นอน</th><th class="px-4 py-3 font-medium">ผู้ใหญ่</th><th class="px-4 py-3 font-medium">ลดครึ่งราคา*</th></tr></thead>
+            <tbody class="divide-y divide-stone-200 tabular-nums dark:divide-stone-800">
+              <tr><td class="px-4 py-3">ชั้น 2 เตียงบน</td><td class="px-4 py-3">938</td><td class="px-4 py-3">799</td></tr>
+              <tr><td class="px-4 py-3">ชั้น 2 เตียงล่าง</td><td class="px-4 py-3">1,038</td><td class="px-4 py-3">899</td></tr>
+              <tr><td class="px-4 py-3">ชั้น 1 เตียงบน</td><td class="px-4 py-3">1,446</td><td class="px-4 py-3">1,153</td></tr>
+              <tr><td class="px-4 py-3">ชั้น 1 เตียงล่าง</td><td class="px-4 py-3">1,646</td><td class="px-4 py-3">1,353</td></tr>
+              <tr><td class="px-4 py-3">ชั้น 1 เหมาห้อง (คนเดียว)</td><td class="px-4 py-3">2,446</td><td class="px-4 py-3">2,153</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="mt-2 text-xs text-stone-500">ราคาเป็นบาท รวมค่าธรรมเนียมแล้ว ข้อมูลจากระบบกำหนดเวลาเดินรถของการรถไฟฯ (ตุลาคม 2569) * ผู้มีสิทธิลดครึ่งราคา เช่น เด็กสูงไม่เกิน 150 ซม., ผู้สูงอายุสัญชาติไทย 60 ปีขึ้นไป (ช่วง 1 มิ.ย.–30 ก.ย.), พระภิกษุสามเณร ตามระเบียบการรถไฟฯ</p>
+      </div>
+      <div class="lg:col-span-2">
+        <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/201701_Lower_Berth_of_SRT_CNR_First_Class_Sleeper_Coach.jpg/960px-201701_Lower_Berth_of_SRT_CNR_First_Class_Sleeper_Coach.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/201701_Lower_Berth_of_SRT_CNR_First_Class_Sleeper_Coach.jpg/1920px-201701_Lower_Berth_of_SRT_CNR_First_Class_Sleeper_Coach.jpg" alt="เตียงล่างในห้องนอนชั้น 1 รถ CNR" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">ห้องนอนชั้น 1 ของรถ CNR</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: MNXANL · <a href="https://commons.wikimedia.org/wiki/File:201701_Lower_Berth_of_SRT_CNR_First_Class_Sleeper_Coach.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      </div>
+    </div>
+    <p class="mt-4 text-[15px]">อักษรย่อบนข้างรถ เช่น บนท.ป. หรือ บชส. อ่านได้ที่ <a class="text-rail-700 underline dark:text-rail-300" href="glossary.html#coach">อภิธานศัพท์</a></p>
+  </section>
+
+  <section id="booking" class="scroll-mt-24 grid gap-8 lg:grid-cols-2">
+    <div class="prose-th">
+      <h2 class="h-section">วิธีจองตั๋ว</h2>
+      <ul>
+        <li><b>ออนไลน์</b> ผ่านระบบ D-Ticket ของการรถไฟฯ (<a href="https://dticket.railway.co.th" target="_blank" rel="noopener">dticket.railway.co.th</a>) เปิดขายตั้งแต่ 1 กุมภาพันธ์ 2560</li>
+        <li><b>โทรศัพท์</b> สายด่วน 1690 ตลอด 24 ชั่วโมง</li>
+        <li><b>ที่สถานี</b> ช่องจำหน่ายตั๋วทุกสถานี</li>
+      </ul>
+      <p><b>จองล่วงหน้าได้นานแค่ไหน</b> ตั้งแต่ 1 กุมภาพันธ์ 2567 ขบวนด่วนพิเศษและด่วนจองล่วงหน้าได้ 90 วัน ขบวนอื่นส่วนใหญ่ 30 วัน ส่วนรถธรรมดาและรถชานเมืองซื้อได้เฉพาะวันเดินทางที่สถานี ถ้าตั๋วเต็มสามารถลงชื่อรอในระบบ waiting list ได้ (เริ่ม พ.ค. 2567)</p>
+      <p><b>เคล็ดลับ</b> ขบวนนอนช่วงเทศกาลสงกรานต์และปีใหม่เต็มเร็วมาก ควรจองทันทีที่เปิดขาย</p>
+    </div>
+    <div class="rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900">
+      <p class="h-item">ก่อนขึ้นรถไฟ</p>
+      <ul class="mt-3 space-y-2 text-[15px] text-stone-600 dark:text-stone-400">
+        <li>✔ ตรวจว่าขบวนออกจาก <b>กรุงเทพอภิวัฒน์</b> หรือ <b>หัวลำโพง</b> (สายตะวันออกยังออกจากหัวลำโพง)</li>
+        <li>✔ มาถึงสถานีก่อนเวลาออกอย่างน้อย 30 นาที</li>
+        <li>✔ พกบัตรประชาชนหรือหนังสือเดินทางที่ใช้จองตั๋ว</li>
+        <li>✔ รถนอนเปิดแอร์เย็นมาก ควรมีเสื้อแขนยาว</li>
+        <li>✔ ขบวนข้ามประเทศต้องเตรียมหนังสือเดินทาง</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="tourist" class="scroll-mt-24">
+    <h2 class="h-section">ขบวนนำเที่ยวที่น่าลอง</h2>
+    <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="card"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/THAI_RAILWAYS_KRUPPS_LOCO_HAULED_TRAIN_ON_THE_WAMPO_VIADUCT_NEAR_NAM_TOK_BOUND_FOR_RIVER_KWAI_BRIDGE_AND_BANGKOK_THAILAND_JAN_2013_%288526999337%29.jpg/960px-THAI_RAILWAYS_KRUPPS_LOCO_HAULED_TRAIN_ON_THE_WAMPO_VIADUCT_NEAR_NAM_TOK_BOUND_FOR_RIVER_KWAI_BRIDGE_AND_BANGKOK_THAILAND_JAN_2013_%288526999337%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/THAI_RAILWAYS_KRUPPS_LOCO_HAULED_TRAIN_ON_THE_WAMPO_VIADUCT_NEAR_NAM_TOK_BOUND_FOR_RIVER_KWAI_BRIDGE_AND_BANGKOK_THAILAND_JAN_2013_%288526999337%29.jpg/1920px-THAI_RAILWAYS_KRUPPS_LOCO_HAULED_TRAIN_ON_THE_WAMPO_VIADUCT_NEAR_NAM_TOK_BOUND_FOR_RIVER_KWAI_BRIDGE_AND_BANGKOK_THAILAND_JAN_2013_%288526999337%29.jpg" data-credit="calflier001 · CC BY-SA 2.0" alt="ขบวนรถบนสะพานเลียบหน้าผาวังโพ" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">calflier001 · CC BY-SA 2.0</span>
+</div>
+        <div class="p-5"><p class="text-sm text-stone-500">ขบวน 909/910 · เสาร์–อาทิตย์</p><h3 class="h-item mt-0.5">หัวลำโพง – น้ำตก</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">ออก 06:30 ถึงน้ำตก 11:30 จอดนครปฐม กาญจนบุรี ท่ากิเลน และวังโพ ผ่านสะพานข้ามแม่น้ำแควและทางเลียบหน้าผา ขากลับออก 14:25</p></div></div>
+      <div class="card"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%98%E0%B9%8C_-_panoramio_-_SIAMSEARCH_%281%29.jpg/960px-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%98%E0%B9%8C_-_panoramio_-_SIAMSEARCH_%281%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%98%E0%B9%8C_-_panoramio_-_SIAMSEARCH_%281%29.jpg/1920px-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%98%E0%B9%8C_-_panoramio_-_SIAMSEARCH_%281%29.jpg" data-credit="SIAMSEARCH · CC BY 3.0" alt="สถานีรถไฟสวนสนประดิพัทธ์" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">SIAMSEARCH · CC BY 3.0</span>
+</div>
+        <div class="p-5"><p class="text-sm text-stone-500">ขบวน 911/912 · เสาร์–อาทิตย์</p><h3 class="h-item mt-0.5">หัวลำโพง – สวนสนประดิพัทธ์</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">รถไฟเที่ยวทะเลหัวหิน ออก 06:30 ถึง 11:05 ขากลับออก 16:30 จอดราชบุรี เพชรบุรี ชะอำ และหัวหิน</p></div></div>
+      <div class="card"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Pasak_Jolasit_Dam_Excursion_Train_in_2019_-_%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%81%E0%B8%AF.jpg/960px-Pasak_Jolasit_Dam_Excursion_Train_in_2019_-_%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%81%E0%B8%AF.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Pasak_Jolasit_Dam_Excursion_Train_in_2019_-_%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%81%E0%B8%AF.jpg/1920px-Pasak_Jolasit_Dam_Excursion_Train_in_2019_-_%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%81%E0%B8%AF.jpg" data-credit="Reversemos.sapanaht · CC BY 4.0" alt="ขบวนรถไฟนำเที่ยวเขื่อนป่าสักชลสิทธิ์" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Reversemos.sapanaht · CC BY 4.0</span>
+</div>
+        <div class="p-5"><p class="text-sm text-stone-500">ช่วงหน้าหนาว (ประมาณ พ.ย.–ม.ค.)</p><h3 class="h-item mt-0.5">เขื่อนป่าสักชลสิทธิ์</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">รถไฟวิ่งผ่านกลางอ่างเก็บน้ำบนสันเขื่อน จอดให้ลงเที่ยวที่หยุดรถเขื่อนป่าสักชลสิทธิ์ ภาพนี้คือขบวน 921 ปี 2562</p></div></div>
+      <div class="card"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/SRT-kiha183_Tourism_train_20230903.jpg/960px-SRT-kiha183_Tourism_train_20230903.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/SRT-kiha183_Tourism_train_20230903.jpg/1920px-SRT-kiha183_Tourism_train_20230903.jpg" data-credit="Rsa · CC BY-SA 3.0" alt="ขบวนรถท่องเที่ยว KIHA 183" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Rsa · CC BY-SA 3.0</span>
+</div>
+        <div class="p-5"><p class="text-sm text-stone-500">ตามประกาศเป็นครั้งคราว</p><h3 class="h-item mt-0.5">ขบวนท่องเที่ยว KIHA 183</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">รถดีเซลรางจากฮอกไกโดที่นำมาทำขบวนท่องเที่ยวไปชายทะเลภาคตะวันออกและเส้นทางอื่น <a class="text-rail-700 underline dark:text-rail-300" href="railcars.html#kiha183">อ่านเพิ่ม</a></p></div></div>
+      <div class="card"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/2014-03-12_C56_15_and_850_steam_locomotives_in_Thailand.jpg/960px-2014-03-12_C56_15_and_850_steam_locomotives_in_Thailand.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/2014-03-12_C56_15_and_850_steam_locomotives_in_Thailand.jpg/1920px-2014-03-12_C56_15_and_850_steam_locomotives_in_Thailand.jpg" data-credit="Adler Chaloryoo · CC BY 2.0" alt="รถจักรไอน้ำ C56 และแปซิฟิก" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Adler Chaloryoo · CC BY 2.0</span>
+</div>
+        <div class="p-5"><p class="text-sm text-stone-500">วันสำคัญ ปีละหลายครั้ง</p><h3 class="h-item mt-0.5">ขบวนรถจักรไอน้ำ</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">กรุงเทพ–อยุธยา, ฉะเชิงเทรา หรือนครปฐม ตั๋วขายหมดเร็ว <a class="text-rail-700 underline dark:text-rail-300" href="steam.html#runs">ดูวันที่</a></p></div></div>
+      <div class="card"><div class="relative">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Maeklong_Railway_Market_07.jpg/960px-Maeklong_Railway_Market_07.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Maeklong_Railway_Market_07.jpg/1920px-Maeklong_Railway_Market_07.jpg" data-credit="Codas · CC BY-SA 4.0" alt="รถไฟผ่านตลาดร่มหุบ" loading="lazy" class="aspect-[4/3] w-full object-cover" width="640" height="480">
+  <span class="absolute bottom-0 right-0 rounded-tl-lg bg-black/55 px-2 py-0.5 text-[10px] text-white/90">Codas · CC BY-SA 4.0</span>
+</div>
+        <div class="p-5"><p class="text-sm text-stone-500">ทุกวัน</p><h3 class="h-item mt-0.5">สายแม่กลอง</h3><p class="mt-1 text-[15px] text-stone-600 dark:text-stone-400">นั่งรถไฟวงเวียนใหญ่–มหาชัย ข้ามเรือ แล้วต่อบ้านแหลม–แม่กลอง ไปดูตลาดร่มหุบ <a class="text-rail-700 underline dark:text-rail-300" href="timetable.html#tt-maeklong">ดูเวลา</a></p></div></div>
+    </div>
+  </section>
+
+  <section id="international" class="scroll-mt-24">
+    <h2 class="h-section">รถไฟข้ามประเทศ</h2>
+    <div class="mt-6 grid gap-8 lg:grid-cols-2">
+      <div class="prose-th">
+        <p><b>ไทย → ลาว</b> ขบวนรถเร็ว 133/134 วิ่งตรงจากกรุงเทพอภิวัฒน์ถึงสถานีคำสะหวาด นครหลวงเวียงจันทน์ (เปิดเมื่อ พ.ศ. 2567) ออก 21:25 ถึง 09:05 ขบวนนี้ไม่ผ่านนครราชสีมา แต่ใช้ทางแยกแก่งคอย–ลำนารายณ์–บัวใหญ่ นอกจากนี้ยังมีรถรับส่งหนองคาย–คำสะหวาด (ขบวน 147/148) ใช้เวลาข้ามแม่น้ำโขงราว 30 นาที จากคำสะหวาดต่อรถไฟลาว–จีนได้</p>
+        <p><b>ไทย → มาเลเซีย</b> ขบวน 45/46 จากกรุงเทพฯ ถึงปาดังเบซาร์ และมีรถชานเมืองหาดใหญ่–ปาดังเบซาร์วันละหลายเที่ยว ที่ปาดังเบซาร์ต่อรถไฟฟ้า ETS ไปกัวลาลัมเปอร์ได้</p>
+        <p><b>ไทย → กัมพูชา</b> รางเชื่อมจากอรัญประเทศถึงปอยเปตซ่อมเสร็จเมื่อ พ.ศ. 2562 แต่ปัจจุบันยังไม่มีขบวนข้ามแดน</p>
+        <p><b>Eastern &amp; Oriental Express</b> รถไฟหรูสายสิงคโปร์–กรุงเทพฯ ที่เคยวิ่งบนรางของการรถไฟฯ แต่เส้นทางช่วงหลังไม่ได้เข้าไทย</p>
+      </div>
+      <div class="grid gap-6 sm:grid-cols-2">
+        <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Vientiane_Khamsavath_Station.jpg/960px-Vientiane_Khamsavath_Station.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://upload.wikimedia.org/wikipedia/commons/d/d6/Vientiane_Khamsavath_Station.jpg" alt="สถานีคำสะหวาด นครหลวงเวียงจันทน์" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">สถานีคำสะหวาด เวียงจันทน์</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Enews01 · <a href="https://commons.wikimedia.org/wiki/File:Vientiane_Khamsavath_Station.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+        <figure class="overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eastern_and_oriental_express_20190401_jb.jpg/960px-Eastern_and_oriental_express_20190401_jb.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" data-full="https://upload.wikimedia.org/wikipedia/commons/a/ac/Eastern_and_oriental_express_20190401_jb.jpg" alt="ขบวน Eastern and Oriental Express ที่ยะโฮร์บาห์รู" loading="lazy" class="aspect-[16/10] w-full object-cover" width="960" height="600">
+  <figcaption class="space-y-0.5 px-4 py-3 text-sm"><span class="block text-stone-700 dark:text-stone-300">Eastern &amp; Oriental Express (2562)</span><span class="block text-xs text-stone-500 dark:text-stone-400">ภาพ: Adlersson · <a href="https://commons.wikimedia.org/wiki/File:Eastern_and_oriental_express_20190401_jb.jpg" class="underline decoration-dotted hover:text-rail-700 dark:hover:text-rail-300" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+      </div>
+    </div>
+  </section>
+</div>
+
+</main>
+<footer class="mt-20 border-t border-stone-200 bg-cream-100/60 dark:border-stone-800 dark:bg-stone-900/50">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:grid-cols-3">
+    <div>
+      <p class="font-display text-base font-semibold text-stone-900 dark:text-stone-100">รถไฟไทย วิกิ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">สื่อการเรียนรู้เรื่องรถไฟไทย จัดทำเพื่อการศึกษา ไม่แสวงหากำไร และไม่ได้เป็นเว็บไซต์ทางการของการรถไฟแห่งประเทศไทย</p>
+      <p class="mt-3 flex gap-2 rounded-xl border border-amber-300 bg-amber-50 px-3 py-2 text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200"><svg viewBox="0 0 24 24" class="mt-0.5 h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg><span><b>คำเตือน:</b> เนื้อหาทั้งหมดถูกเรียบเรียงโดย AI กรุณาตรวจสอบข้อมูลให้ถูกต้องทุกครั้ง</span></p>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ขบวนรถ</p>
+      <ul class="mt-2 space-y-1 text-stone-600 dark:text-stone-400">
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="steam.html">รถจักรไอน้ำ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="diesel.html">รถจักรดีเซล</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="railcars.html">รถดีเซลรางและรถโดยสาร</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="electric.html">รถไฟฟ้าและความเร็วสูง</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="urban.html">รถไฟฟ้าในกรุงเทพฯ</a></li>
+        <li><a class="hover:text-rail-700 dark:hover:text-rail-300" href="timetable.html">ตารางเดินรถ</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-semibold text-stone-900 dark:text-stone-100">ข้อมูลและภาพ</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">ภาพส่วนใหญ่มาจาก <a class="underline hover:text-rail-700" href="https://commons.wikimedia.org/">Wikimedia Commons</a> ภายใต้สัญญาอนุญาตครีเอทีฟคอมมอนส์ ดูชื่อผู้ถ่ายทั้งหมดได้ที่ <a class="underline hover:text-rail-700" href="sources.html">แหล่งอ้างอิง</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/lightbox.js" defer></script>
+
+</body>
+</html>
